@@ -91,7 +91,6 @@ vendor/bin/hw/android.hardware.contexthub-service.qmi
 vendor/etc/chre/preloaded_nanoapps.json
 
 # Data
-vendor/bin/ATFWD-daemon
 vendor/bin/adpl
 vendor/bin/embmsslServer
 vendor/bin/nicmd
@@ -107,7 +106,6 @@ vendor/etc/init/init.embmssl_server.rc
 vendor/etc/init/nicmd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/shsusrd.rc
-vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.embmssl.xml
 vendor/lib64/libconfigdb.so
 vendor/lib64/libdsi_netctrl.so
@@ -431,7 +429,6 @@ vendor/etc/qcril_database/qcrilNr.db
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
 vendor/etc/seccomp_policy/qms.policy
 vendor/etc/vintf/manifest/android.hardware.radio.config.xml
-vendor/etc/vintf/manifest/atfwd-saidl.xml
 vendor/etc/vintf/manifest/deviceinfo-saidl.xml
 vendor/etc/vintf/manifest/qms-saidl.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
@@ -507,7 +504,6 @@ vendor/lib64/vendor.qti.hardware.data.ka-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.am-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.atfwd-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.common-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.lpa-V1-ndk.so
