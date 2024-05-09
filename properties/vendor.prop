@@ -270,9 +270,6 @@ debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
 vendor.media.omx=0
 
-# Pasr
-vendor.pasr.activemode.enabled=true
-
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=3.0

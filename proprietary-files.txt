@@ -494,7 +494,6 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Performance
-vendor/bin/hw/pasrknob
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/bin/hw/vendor.qti.hardware.perf2-hal-service
 vendor/bin/poweropt-service
@@ -505,7 +504,6 @@ vendor/etc/init/poweropt-service.rc
 vendor/etc/init/vendor.qsap.qapeservice.rc
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc
-vendor/etc/init/vendor.qti.pasrknob@1.0-service.rc
 vendor/etc/lm/prekill/prekill_2GB.data
 vendor/etc/lm/prekill/prekill_4GB.data
 vendor/etc/lm/prekill/prekill_6GB.data
@@ -552,7 +550,6 @@ vendor/lib64/libmemperfd.so
 vendor/lib64/libmeters-ns.so
 vendor/lib64/libmeters.so
 vendor/lib64/liboffscreenpoweroptfeature.so
-vendor/lib64/libpasrutils.so
 vendor/lib64/libperfconfig.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperfioctl.so
@@ -576,16 +573,12 @@ vendor/lib64/libreffeature.so
 vendor/lib64/libsilkyscrolls.so
 vendor/lib64/libskewknob.so
 vendor/lib64/libsplh.so
-vendor/lib64/libsrc_jni_getPasrService.so
 vendor/lib64/libstandbyfeature.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.hardware.perf2-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.power.powermodule-V1-ndk.so
 vendor/lib64/vendor.qti.memory.pasrmanager-V1-ndk.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
-vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
 # PSI Client
 vendor/bin/hw/vendor.qti.psiclient@1.0-service

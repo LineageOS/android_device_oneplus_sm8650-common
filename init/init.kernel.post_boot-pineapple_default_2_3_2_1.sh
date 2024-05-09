@@ -310,22 +310,6 @@ echo N > /sys/devices/system/cpu/qcom_lpm/parameters/sleep_disabled
 
 echo 4 > /proc/sys/kernel/printk
 
-verify_pasr_support()
-{
-	ddr_type=`od -An -tx /proc/device-tree/memory/ddr_device_type`
-	ddr_type5="08"
-
-	if [ -d /sys/kernel/mem-offline ]; then
-		#only LPDDR5 supports PAAR
-		if [ ${ddr_type:4:2} != $ddr_type5 ]; then
-			setprop vendor.pasr.activemode.enabled false
-		fi
-
-		setprop vendor.pasr.enabled true
-		echo "pasr-enabled"
-	fi
-}
-
 enable_thp()
 {
 	# Enable THP
@@ -350,12 +334,6 @@ enable_thp()
 	# HAL can read and set the value for it.
 	echo $MinFreeKbytes > /proc/sys/vm/min_free_kbytes
 	setprop vendor.memory.min_free_kbytes $MinFreeKbytes
-
-	have_pasr=$(verify_pasr_support)
-	if [ ! -z $have_pasr ]; then
-		# Do not enable THP if PASR is enabled
-		echo never > /sys/kernel/mm/transparent_hugepage/enabled
-	fi
 }
 
 enable_thp
