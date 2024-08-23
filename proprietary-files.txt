@@ -2345,6 +2345,11 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 # ESE
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 
+# eSIM
+odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+odm/etc/init/esim@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_esim.xml
+
 # EVA
 vendor/etc/eva/facedetection/bias.dat
 vendor/etc/eva/facedetection/weight.dat
