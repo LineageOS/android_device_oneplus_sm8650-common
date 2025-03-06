@@ -440,12 +440,6 @@ service iop /system/vendor/bin/iop
     disabled
     socket iop seqpacket 0666 root system
 
-service qcomsysd /system/vendor/bin/qcom-system-daemon
-    class main
-    user root
-    group root diag oem_2901
-    disabled
-
 # Not launch qcomsysd process in USER BUILD
 on property:persist.vendor.qcomsysd.enabled=1 && property:ro.build.type=userdebug
     enable qcomsysd
