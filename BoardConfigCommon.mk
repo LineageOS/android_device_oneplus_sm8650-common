@@ -102,6 +102,7 @@ BOARD_MKBOOTIMG_INIT_ARGS += --header_version $(BOARD_INIT_BOOT_HEADER_VERSION)
 
 # Kernel
 BOARD_BOOTCONFIG := \
+    androidboot.console=null \
     androidboot.hardware=qcom \
     androidboot.hypervisor.protected_vm.supported=true \
     androidboot.load_modules_parallel=true \
