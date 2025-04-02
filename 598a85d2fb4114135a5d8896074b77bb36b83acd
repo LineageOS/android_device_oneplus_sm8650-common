@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "293ad773_2f6d18c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2025-04-02T03:11:53Z",
+      "side": 1,
+      "message": "Our quick pickup sensor is super intrusive that even with slight movement of the table the device is on, it activates the quick pickup gesture. This might be not be favorable for most people. But then if we have a way to hide everything else except the UDFPS icon - the same way stock does, this patch might be usable",
+      "revId": "598a85d2fb4114135a5d8896074b77bb36b83acd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
