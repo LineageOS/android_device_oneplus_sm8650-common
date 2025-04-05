@@ -190,7 +190,6 @@ qti-ocp-notifier.ko
 qti_qmi_cdev.ko
 qti_qmi_sensor_v2.ko
 qti_userspace_cdev.ko
-radio-i2c-rtc6226-qca.ko
 rdbg.ko
 reboot-mode.ko
 redriver.ko
