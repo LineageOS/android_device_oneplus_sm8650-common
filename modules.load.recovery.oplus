@@ -30,6 +30,7 @@ oplus_bsp_tp_ft3518.ko
 oplus_bsp_tp_ft3658u_spi.ko
 oplus_bsp_tp_ft3681.ko
 oplus_bsp_tp_ft3683g.ko
+oplus_bsp_tp_ft8057p.ko
 oplus_bsp_tp_goodix_comnon.ko
 oplus_bsp_tp_gt9916.ko
 oplus_bsp_tp_gt9966.ko
