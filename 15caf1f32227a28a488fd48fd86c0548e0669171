@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0bb0a465_740faa5e",
+        "filename": "power/power-mode.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-08T13:14:43Z",
+      "side": 1,
+      "message": "typo: DOBULE -\u003e DOUBLE",
+      "range": {
+        "startLine": 30,
+        "startChar": 8,
+        "endLine": 30,
+        "endChar": 33
+      },
+      "revId": "15caf1f32227a28a488fd48fd86c0548e0669171",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9741d087_237e6f2c",
+        "filename": "power/power-mode.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-04-08T13:14:43Z",
+      "side": 1,
+      "message": "typo: DOBULE -\u003e DOUBLE",
+      "range": {
+        "startLine": 31,
+        "startChar": 8,
+        "endLine": 31,
+        "endChar": 34
+      },
+      "revId": "15caf1f32227a28a488fd48fd86c0548e0669171",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
