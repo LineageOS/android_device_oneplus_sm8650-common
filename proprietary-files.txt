@@ -2777,6 +2777,9 @@ vendor/lib64/vendor.qti.hardware.factory@1.1.so
 # Memory
 vendor/lib64/libvmmem.so
 
+# Misc
+odm/etc/init/init.oppo.reserve.rc
+
 # ML
 vendor/lib64/MLPD_0.pickle
 vendor/lib64/MLPD_1.pickle
