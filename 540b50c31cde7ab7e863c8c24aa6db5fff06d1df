@@ -16,6 +16,24 @@
       "message": "I am wondering why this is needed. Did you really see this warning?",
       "revId": "540b50c31cde7ab7e863c8c24aa6db5fff06d1df",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f648904_724c59b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-06-18T09:12:24Z",
+      "side": 1,
+      "message": "Yes, I\u0027m getting warning notification.",
+      "parentUuid": "072e96b3_e6f71a9b",
+      "revId": "540b50c31cde7ab7e863c8c24aa6db5fff06d1df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
