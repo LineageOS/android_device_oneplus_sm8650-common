@@ -16,6 +16,24 @@
       "message": "Didn\u0027t you say that this breaks pSIM?",
       "revId": "5355ae7727f39ab0dfb7f0ee5298b4daf2f7d2c8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a91e38f_5d1908a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-06-19T00:42:37Z",
+      "side": 1,
+      "message": "This fixes pSIM but breaks eSIM.",
+      "parentUuid": "6a2471aa_edf9fd16",
+      "revId": "5355ae7727f39ab0dfb7f0ee5298b4daf2f7d2c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
