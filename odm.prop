@@ -2,7 +2,7 @@
 ro.config.media_vol_steps=30
 ro.config.vc_call_vol_steps=9
 ro.oplus.image.my_engineering.type=release
-ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.regionmark=ROW
 ro.vendor.qti.va_odm.support=1
 sys.oplus_ftm_mode=997
 
@@ -22,7 +22,6 @@ persist.vendor.radio.virtualcomm=1
 ro.sys.reserve.integrate=true
 ro.vendor.oplus.radio.esim.feature=2
 ro.vendor.oplus.radio.project=1
-ro.vendor.oplus.radio.sar_regionmark=FCC
 
 # SVN
 ro.build.version.svn=94

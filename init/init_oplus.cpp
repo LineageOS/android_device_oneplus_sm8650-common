@@ -58,10 +58,15 @@ void vendor_load_properties() {
 
     if (hw_region_id == NV_ID_CN) {
         OverrideProperty("ro.boot.hardware.revision", "CN");
+        OverrideProperty("ro.vendor.oplus.regionmark", "CN");
     } else if (hw_region_id == NV_ID_EU) {
         OverrideProperty("ro.boot.hardware.revision", "EU");
+        OverrideProperty("ro.vendor.oplus.regionmark", "EUEX");
+        OverrideProperty("ro.vendor.oplus.radio.sar_regionmark", "EUEX");
     } else if (hw_region_id == NV_ID_IN) {
         OverrideProperty("ro.boot.hardware.revision", "IN");
+        OverrideProperty("ro.vendor.oplus.regionmark", "IN");
+        OverrideProperty("ro.vendor.oplus.radio.sar_regionmark", "IN");
     } else if (hw_region_id == NV_ID_US) {
         OverrideProperty("ro.boot.hardware.revision", "NA");
     } else {
