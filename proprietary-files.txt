@@ -1,14 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from OnePlus 12 (CPH2581_15.0.0.863(EX01)).
 
-# Current blobs with ELF checks disabled:
-# audio.primary.pineapple depends on liblx-osal and vendor.qti.hardware.AGMIPC@1.0-impl, which are gnu makefile targets
-# libar-pal depends on libagmclient, which is a gnu makefile target
-# libarmemlog depends on liblx-osal, hich is a gnu makefile target
-# libmcs depends on libagm, which is a gnu makefile target
-# libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
-# libvui_intf depends on liblx-osal, which is a gnu makefile target
-
 # Current blobs with deps disabled:
 # libqvrservice depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
 
@@ -155,7 +147,7 @@ vendor/etc/models/acd/speech.eai
 vendor/etc/models/vui/sm8_gr1UsPdk6XsMfcn220819Enpu4FloateAIv34.uim
 vendor/etc/models/vui/sm8_gr3UsMFCN230612eAIv34ENPUv4Float.uim
 vendor/etc/seccomp_policy/qsap_voiceui.policy
-vendor/lib64/hw/audio.primary.pineapple.so;DISABLE_CHECKELF
+vendor/lib64/hw/audio.primary.pineapple.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libEvrcSwCodec.so
@@ -163,9 +155,9 @@ vendor/lib64/libFlacSwDec.so
 vendor/lib64/libPeripheralStateUtils.so
 vendor/lib64/libVoiceSdk.so
 vendor/lib64/libadm.so
-vendor/lib64/libagm.so;DISABLE_CHECKELF
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
-vendor/lib64/libarmemlog.so;DISABLE_CHECKELF
+vendor/lib64/libagm.so
+vendor/lib64/libar-pal.so
+vendor/lib64/libarmemlog.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudiofeaturestats.so
 vendor/lib64/libcapiv2svacnnvendor.so
@@ -176,12 +168,11 @@ vendor/lib64/libdsd2pcm.so
 vendor/lib64/libeai_fixed.so
 vendor/lib64/libeai_float.so
 vendor/lib64/liblistensoundmodel2vendor.so
-vendor/lib64/libmcs.so;DISABLE_CHECKELF
+vendor/lib64/libmcs.so
 vendor/lib64/libqtigefar.so
 vendor/lib64/libtensorflowlite_c.so
 vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
-vendor/lib64/libvui_intf.so;DISABLE_CHECKELF
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
@@ -615,7 +606,7 @@ vendor/lib64/libqc2audio_base.so
 vendor/lib64/libqc2audio_basecodec.so
 vendor/lib64/libqc2audio_core.so
 vendor/lib64/libqc2audio_hooks.so
-vendor/lib64/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF
+vendor/lib64/libqc2audio_hwaudiocodec.so
 vendor/lib64/libqc2audio_platform.so
 vendor/lib64/libqc2audio_swaudiocodec.so
 vendor/lib64/libqc2audio_utils.so
