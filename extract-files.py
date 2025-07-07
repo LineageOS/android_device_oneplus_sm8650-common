@@ -94,7 +94,7 @@ blob_fixups: blob_fixups_user_type = {
         .remove_needed('android.hardware.graphics.common-V4-ndk.so'),
     ('odm/lib64/libCOppLceTonemapAPI.so', 'odm/lib64/libSuperRaw.so', 'odm/lib64/libYTCommon.so', 'odm/lib64/libyuv2.so'): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
-    ('odm/lib64/libEIS.so', 'odm/lib64/libHIS.so', 'odm/lib64/libOPAlgoCamFaceBeautyCap.so', 'odm/lib64/libOGLManager.so'): blob_fixup()
+    ('odm/lib64/libEIS.so', 'odm/lib64/libEISLive.so', 'odm/lib64/libHIS.so', 'odm/lib64/libOPAlgoCamFaceBeautyCap.so', 'odm/lib64/libOGLManager.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
         .clear_symbol_version('AHardwareBuffer_lock')

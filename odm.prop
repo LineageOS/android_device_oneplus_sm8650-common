@@ -24,4 +24,4 @@ ro.vendor.oplus.radio.esim.feature=2
 ro.vendor.oplus.radio.project=1
 
 # SVN
-ro.build.version.svn=94
+ro.build.version.svn=96
