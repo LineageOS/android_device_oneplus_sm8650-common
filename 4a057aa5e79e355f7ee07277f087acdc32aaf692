@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "105a7f82_0b88e908",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-07T10:40:22Z",
+      "side": 1,
+      "message": "Adapt this also, to make it look similar to sm8550:\n\n\u003e  CONFIG_HAL_SRC_DIR :\u003d $(AUDIO_HAL_DIR)/configs/kalama\n\u003e  CONFIG_PAL_SRC_DIR :\u003d $(AUDIO_HAL_DIR)/../pal/configs/kalama",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 51
+      },
+      "revId": "4a057aa5e79e355f7ee07277f087acdc32aaf692",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
