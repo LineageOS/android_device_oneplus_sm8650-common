@@ -36,8 +36,9 @@ std::string GetKernelCmdlineParam(const std::string& key) {
  * the same thing as "SetProperty" without this restriction.
  */
 void OverrideProperty(const char* name, const char* value) {
-    size_t valuelen = strlen(value);
+    if (name == nullptr || value == nullptr) return;
 
+    size_t valuelen = strlen(value);
     prop_info* pi = (prop_info*)__system_property_find(name);
     if (pi != nullptr) {
         __system_property_update(pi, value, valuelen);
@@ -67,18 +68,28 @@ void vendor_load_properties() {
         LOG(ERROR) << "Unexpected region ID: " << hw_region_id;
     }
 
+    const char *device = nullptr, *model = nullptr, *name = nullptr;
+
     switch (prjname) {
         case 22825:  // waffle CN
-            OverrideProperty("ro.product.device", "OP5929L1");
-            OverrideProperty("ro.product.vendor.device", "OP5929L1");
-            OverrideProperty("ro.product.product.model", "PJD110");
+            device = "OP5929L1";
+            model = name = "PJD110";
             break;
         case 22877:  // waffle ROW
-            OverrideProperty("ro.product.product.model",
-                    hw_region_id == NV_ID_IN ? "CPH2573" :
-                    hw_region_id == NV_ID_US ? "CPH2583" : "CPH2581");
+            if (hw_region_id == NV_ID_EU) {
+                name = "CPH2581EEA";
+            } else if (hw_region_id == NV_ID_IN) {
+                model = "CPH2573";
+                name = "CPH2573IN";
+            } else if (hw_region_id == NV_ID_US) {
+                model = name = "CPH2583";
+            }
             break;
         default:
             LOG(ERROR) << "Unexpected prjname: " << prjname;
     }
+
+    OverrideProperty("ro.product.product.device", device);
+    OverrideProperty("ro.product.product.model", model);
+    OverrideProperty("ro.product.product.name", name);
 }
