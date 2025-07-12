@@ -2135,6 +2135,7 @@ vendor/lib64/libdiagjni.so
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display (Features)
+odm/etc/init/hw/init.oplus.display.rc
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
 vendor/lib64/libPanelChaplin.so
@@ -3123,6 +3124,7 @@ vendor/lib64/vendor.qti.qegahal-V1-ndk_platform.so
 # RIL
 odm/bin/commcenterd
 odm/etc/init/commcenterd.rc
+odm/etc/init/init.network.rc
 odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml
 odm/etc/oem_stx_platform_license.pfm
 odm/lib64/lib-virtual-modem-protos.so
@@ -3375,6 +3377,7 @@ vendor/lib64/libsxrservice_client.qti.so
 
 # Sensors
 odm/bin/oplus_sensor_fb
+odm/etc/init/init.oplus.sensor.rc
 odm/lib64/liboplus_service.so
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate-service
 vendor/bin/init.qcom.sensors.sh
