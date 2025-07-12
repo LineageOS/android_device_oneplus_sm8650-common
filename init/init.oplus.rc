@@ -1,8 +1,10 @@
 #
-# Copyright (C) 2022-2024 The LineageOS Project
+# Copyright (C) 2022-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+import /odm/etc/init/hw/init.oplus.display.rc
 
 on fs
     # Update touchpanel firmware in case we ship newer firmware in /odm
@@ -10,21 +12,10 @@ on fs
 
 on boot
     # Display
-    chown system system /dev/oplus_display
-    chown system system /sys/kernel/oplus_display/dimlayer_bl_en
-    chown system system /sys/kernel/oplus_display/dynamic_osc_clock
-    chown system system /sys/kernel/oplus_display/notify_fppress
-    chown system system /sys/kernel/oplus_display/panel_serial_number
-
     chmod 0000 /sys/kernel/oplus_display/hbm
 
     # Audio HAL feedback
     chown media media /proc/mm_fb
-
-    # Sensors
-    chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
-    chmod 0666 /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
-    chmod 0666 /dev/oplus_consumer_ir
 
 on post-fs-data
     # ADSP ramdump
@@ -55,11 +46,6 @@ on property:ro.boot.prjname=*
     setprop ro.separate.soft ${ro.boot.prjname}
 
 on property:sys.boot_completed=1
-    # Display
-    copy /vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm /mnt/vendor/persist/data/pfm/licenses/oem_51_prj_OppoLTM8650_1689712162019.pfm
-    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oem_51_prj_OppoLTM8650_1689712162019.pfm
-    chown system system /mnt/vendor/persist/data/pfm/licenses/oem_51_prj_OppoLTM8650_1689712162019.pfm
-
     # Network
     copy /vendor/etc/O_STX_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/O_STX_platform_license.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/O_STX_platform_license.pfm
@@ -77,9 +63,3 @@ on property:sys.boot_completed=1
     copy /vendor/etc/oplus_Widevine_licenses.pfm /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
-
-service oplus_sensor_fb /odm/bin/oplus_sensor_fb
-    user system
-    group system
-    class late_start
-    oneshot
