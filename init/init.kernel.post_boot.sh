@@ -47,8 +47,10 @@ function configure_zram_parameters() {
 		let zRamSizeMB=6144
 	fi
 
-	# use lz4 on all targets
-	echo lz4 > /sys/block/zram0/comp_algorithm
+	# And enable lz4 zram compression for Go targets.
+	if [ "$low_ram" == "true" ]; then
+		echo lz4 > /sys/block/zram0/comp_algorithm
+	fi
 
 	if [ -f /sys/block/zram0/disksize ]; then
 		if [ -f /sys/block/zram0/use_dedup ]; then
@@ -109,16 +111,8 @@ function configure_read_ahead_kb_values() {
 		echo $ra_kb > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
 	fi
 	for dm in $dmpts; do
-		dm_dev=`echo $dm |cut -d/ -f4`
-		if [ "$dm_dev" = "" ]; then
-			is_erofs=""
-		else
-			is_erofs=`mount |grep erofs |grep "${dm_dev} "`
-		fi
-		if [ "$is_erofs" = "" ]; then
+		if [ `cat $(dirname $dm)/../removable` -eq 0 ]; then
 			echo $ra_kb > $dm
-		else
-			echo 128 > $dm
 		fi
 	done
 }
@@ -145,9 +139,7 @@ function configure_memory_parameters() {
 
 	configure_zram_parameters
 	configure_read_ahead_kb_values
-        # Enable ZRAM on boot_complete
-        echo 0 > /proc/sys/vm/page-cluster 0
-	echo 60 > /proc/sys/vm/swappiness
+	echo 100 > /proc/sys/vm/swappiness
 
 	# Disable periodic kcompactd wakeups. We do not use THP, so having many
 	# huge pages is not as necessary.
@@ -188,11 +180,6 @@ function configure_memory_parameters() {
 	else
 		echo 4096 > /proc/sys/vm/min_free_kbytes
 	fi
-
-	# configure boost pool
-	if [ $RamSizeGB -ge 10 ]; then
-		echo 128000 > /proc/boost_pool/camera_pages
-        fi
 
 	#Set per-app max kgsl reclaim limit and per shrinker call limit
 	if [ -f /sys/class/kgsl/kgsl/page_reclaim_per_call ]; then
