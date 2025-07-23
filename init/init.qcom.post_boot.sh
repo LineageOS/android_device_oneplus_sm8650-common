@@ -607,7 +607,9 @@ function configure_zram_parameters() {
         let zRamSizeMB=4096
     fi
 
-    echo lz4 > /sys/block/zram0/comp_algorithm
+    if [ "$low_ram" == "true" ]; then
+        echo lz4 > /sys/block/zram0/comp_algorithm
+    fi
 
     if [ -f /sys/block/zram0/disksize ]; then
         if [ -f /sys/block/zram0/use_dedup ]; then
@@ -815,8 +817,7 @@ else
     # Set allocstall_threshold to 0 for all targets.
     # Set swappiness to 100 for all targets
     echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
-    echo 0 > /proc/sys/vm/page-cluster
-    echo 60 > /proc/sys/vm/swappiness
+    echo 100 > /proc/sys/vm/swappiness
 
     # Disable wsf for all targets beacause we are using efk.
     # wsf Range : 1..1000 So set to bare minimum value 1.
