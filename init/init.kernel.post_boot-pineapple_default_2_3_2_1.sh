@@ -189,33 +189,6 @@ if [ -d /proc/sys/walt ]; then
 		echo 1612800 > /sys/devices/system/cpu/cpufreq/policy5/walt/hispeed_freq
 		echo 1593600 > /sys/devices/system/cpu/cpufreq/policy7/walt/hispeed_freq
 	fi
-
-	# switch to schedutil gov after walt gov parameter setting, for proper switch back to walt gov
-	echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
-	echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy2/scaling_governor
-	echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy5/scaling_governor
-	echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy7/scaling_governor
-
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/up_rate_limit_us
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy2/schedutil/down_rate_limit_us
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy2/schedutil/up_rate_limit_us
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy5/schedutil/down_rate_limit_us
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy5/schedutil/up_rate_limit_us
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/down_rate_limit_us
-	echo 1000 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/up_rate_limit_us
-
-	if [ $rev == "1.0" ] || [ $rev == "1.1" ]; then
-		echo 1344000 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq
-		echo 1612800 > /sys/devices/system/cpu/cpufreq/policy2/schedutil/hispeed_freq
-		echo 1612800 > /sys/devices/system/cpu/cpufreq/policy5/schedutil/hispeed_freq
-		echo 1420800 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/hispeed_freq
-	else
-		echo 1344000 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq
-		echo 1612800 > /sys/devices/system/cpu/cpufreq/policy2/schedutil/hispeed_freq
-		echo 1612800 > /sys/devices/system/cpu/cpufreq/policy5/schedutil/hispeed_freq
-		echo 1478400 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/hispeed_freq
-	fi
 else
 	echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
 	echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy2/scaling_governor
