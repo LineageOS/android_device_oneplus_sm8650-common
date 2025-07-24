@@ -1,7 +1,6 @@
 aw8697.ko
 haptic_feedback.ko
 haptic.ko
-horae_shell_temp.ko
 leds-aw20198.ko
 leds-aw2023.ko
 oplus_ak09970.ko
@@ -53,7 +52,6 @@ oplus_bsp_tri_key.ko
 oplus_bsp_uff_fp_driver.ko
 oplus_camera_aw37004.ko
 oplus_chg_v2.ko
-oplus_ipa_thermal.ko
 oplus_mdmrst.ko
 oplus_mm_kevent_fb.ko
 oplus_mm_kevent.ko

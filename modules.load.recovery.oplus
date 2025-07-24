@@ -4,7 +4,6 @@ buildvariant.ko
 cdt_integrity.ko
 haptic_feedback.ko
 haptic.ko
-horae_shell_temp.ko
 leds-aw20198.ko
 leds-aw2023.ko
 olc.ko
@@ -50,7 +49,6 @@ oplus_camera_aw37004.ko
 oplus_charger_present.ko
 oplus_chg_v2.ko
 oplus_ftm_mode.ko
-oplus_ipa_thermal.ko
 oplus_mdmrst.ko
 oplus_mm_kevent_fb.ko
 oplus_mm_kevent.ko
