@@ -101,7 +101,6 @@ icc-debug.ko
 icc-rpmh.ko
 icc-test.ko
 iommu-logger.ko
-kernel_fb.ko
 leds-qpnp-vibrator-ldo.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
@@ -258,6 +257,7 @@ slimbus.ko
 slim-qcom-ngd-ctrl.ko
 smcinvoke_dlkm.ko
 smem.ko
+smp2p.ko
 smp2p_sleepstate.ko
 snd_event_dlkm.ko
 snd-soc-hdmi-codec.ko
@@ -280,7 +280,6 @@ sys_pm_vx.ko
 tcsrcc-pineapple.ko
 thermal_config.ko
 thermal_minidump.ko
-thermal_pa_adc.ko
 thermal_pause.ko
 tmecom-intf.ko
 tms_device_modules.ko
