@@ -144,6 +144,25 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/mm-sys-kernel/ubwcp \
     nxp/opensource/driver
 
+TARGET_KERNEL_EXT_MODULES += \
+    oplus/hardware/radio/kernel/mdmfeature:kbuild \
+    oplus/kernel/cpu/thermal:kbuild \
+    oplus/kernel/device_info/pogo_keyboard:kbuild \
+    oplus/kernel/device_info/tri_state_key:kbuild \
+    oplus/kernel/dfr:kbuild \
+    oplus/kernel/graphics:kbuild \
+    oplus/kernel/network/oplus_network_oem_qmi:kbuild \
+    oplus/kernel/network/oplus_network_esim:kbuild \
+    oplus/kernel/network/oplus_network_sim_detect:kbuild \
+    oplus/kernel/network/oplus_rf_cable_monitor:kbuild \
+    oplus/kernel/touchpanel/oplus_touchscreen_v2/touch_custom:kbuild \
+    oplus/kernel/touchpanel/oplus_touchscreen_v2:kbuild \
+    oplus/kernel/touchpanel/synaptics_hbp:kbuild \
+    oplus/secure/biometrics/fingerprints/bsp/uff/driver:kbuild \
+    oplus/secure/common/bsp/drivers/oplus_secure_common \
+    oplus/sensor/kernel/oplus_consumer_ir:kbuild \
+    oplus/sensor/kernel/qcom/sensor:kbuild
+
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := pineapple

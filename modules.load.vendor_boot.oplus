@@ -1,17 +1,13 @@
 boot_mode.ko
 buildvariant.ko
-cdt_integrity.ko
 device_info.ko
 kernel_fb.ko
 olc.ko
 oplusboot.ko
 oplus_bsp_boot_projectinfo.ko
-oplus_bsp_mm_osvelte.ko
 oplus_charger_present.ko
 oplus_ftm_mode.ko
 oplus_mdmrst.ko
 oplus_network_oem_qmi.ko
 oplus_power_notifier.ko
-oplus_storage_log.ko
-oplus_uprobe.ko
 test-kit.ko
