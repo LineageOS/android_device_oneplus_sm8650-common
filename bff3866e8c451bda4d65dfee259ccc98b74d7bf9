@@ -51,6 +51,23 @@
       "parentUuid": "50fef8da_6150ebca",
       "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8edda953_135a2204",
+        "filename": "init/init.oplus.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-24T15:35:32Z",
+      "side": 1,
+      "message": "Remove this then?",
+      "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
