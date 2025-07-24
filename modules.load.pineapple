@@ -215,6 +215,7 @@ slimbus.ko
 slim-qcom-ngd-ctrl.ko
 smcinvoke_dlkm.ko
 smmu_proxy_dlkm.ko
+smp2p.ko
 smp2p_sleepstate.ko
 snd_event_dlkm.ko
 snd-soc-hdmi-codec.ko
@@ -240,7 +241,6 @@ synx-driver.ko
 sysmon_subsystem_stats.ko
 sys_pm_vx.ko
 thermal_config.ko
-thermal_pa_adc.ko
 tms_device_modules.ko
 tz_log_dlkm.ko
 ubwcp.ko
