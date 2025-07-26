@@ -68,6 +68,24 @@
       "message": "Remove this then?",
       "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d32f58a6_30319adf",
+        "filename": "init/init.oplus.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-26T01:59:12Z",
+      "side": 1,
+      "message": "Need to set this prop persist.vendor.oplus.tddsawless.licenses\u003d1 to copy the files.\n\nhttps://github.com/OnePlus-12-Development/proprietary_vendor_oneplus_sm8650-common/blob/lineage-22.2/proprietary/odm/etc/init/init.network.rc#L108.\n\nShould i remove init.network.rc? it fully contains logs dir",
+      "parentUuid": "8edda953_135a2204",
+      "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
