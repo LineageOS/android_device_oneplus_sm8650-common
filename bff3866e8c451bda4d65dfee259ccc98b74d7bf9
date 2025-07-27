@@ -86,6 +86,24 @@
       "parentUuid": "8edda953_135a2204",
       "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1431b10_1f4a8613",
+        "filename": "init/init.oplus.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-27T09:24:29Z",
+      "side": 1,
+      "message": "No, imo you just need to leave init.network.rc, but remove this \"network\" part here like we have in sm8750.",
+      "parentUuid": "d32f58a6_30319adf",
+      "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
