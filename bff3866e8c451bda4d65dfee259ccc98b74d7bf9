@@ -104,6 +104,24 @@
       "parentUuid": "d32f58a6_30319adf",
       "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27a5a108_5eb3f068",
+        "filename": "init/init.oplus.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-27T10:07:14Z",
+      "side": 1,
+      "message": "I’d prefer not to ship init.network.rc, as it mainly contains log directory creations which we don’t need.",
+      "parentUuid": "a1431b10_1f4a8613",
+      "revId": "bff3866e8c451bda4d65dfee259ccc98b74d7bf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
