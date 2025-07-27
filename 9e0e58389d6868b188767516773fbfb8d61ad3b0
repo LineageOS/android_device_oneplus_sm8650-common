@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b77ec36_00f824f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-27T13:22:27Z",
+      "side": 1,
+      "message": "Why don\u0027y you just squash this into previous one and call it vanilla import? There\u0027s no much gain in mixing an update with removal of oem edits.",
+      "revId": "9e0e58389d6868b188767516773fbfb8d61ad3b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
