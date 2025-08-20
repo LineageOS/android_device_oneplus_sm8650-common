@@ -10,6 +10,10 @@ on fs
     # Update touchpanel firmware in case we ship newer firmware in /odm
     write /proc/touchpanel/tp_fw_update 0
 
+on property:sys.boot_completed=1
+    # Charging
+    chown system system /dev/oplus_chg
+
 on boot
     # Display
     chmod 0000 /sys/kernel/oplus_display/hbm
