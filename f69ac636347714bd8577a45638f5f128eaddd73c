@@ -16,6 +16,24 @@
       "message": "Move somewhere here",
       "revId": "f69ac636347714bd8577a45638f5f128eaddd73c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a06f81b9_f1ae60de",
+        "filename": "init/init.oplus.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-08-23T15:41:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "34d77306_6a995dfb",
+      "revId": "f69ac636347714bd8577a45638f5f128eaddd73c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
