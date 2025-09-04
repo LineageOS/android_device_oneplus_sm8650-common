@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63e5c64a_9c4a27bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-04T13:30:43Z",
+      "side": 1,
+      "message": "Maybe picking https://review.lineageos.org/c/LineageOS/android_device_oneplus_sm8550-common/+/450016 and https://review.lineageos.org/c/LineageOS/android_device_oneplus_sm8550-common/+/450017 before this would make it more simple.",
+      "revId": "be2421307d2285df62f072014ba9e72b5b2486ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
