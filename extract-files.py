@@ -71,6 +71,9 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.qccvndhal_aidl-V1-ndk',
     ): lib_fixup_vendor_suffix,
     (
+        'vendor.oplus.hardware.displaypanelfeature-V1-ndk',
+    ): lib_fixup_odm_suffix,
+    (
         'libar-acdb',
         'libar-gsl',
         'liblx-osal',
