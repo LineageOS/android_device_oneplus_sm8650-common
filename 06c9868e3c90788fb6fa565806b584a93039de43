@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57cdcea7_cd245cad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-06T12:08:46Z",
+      "side": 1,
+      "message": "Did you verify in the end? SM8750 doesn\u0027t seem to need it, but I didn\u0027t care to remove yet.",
+      "revId": "06c9868e3c90788fb6fa565806b584a93039de43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
