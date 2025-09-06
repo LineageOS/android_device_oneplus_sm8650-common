@@ -2584,7 +2584,6 @@ system_ext/etc/horae/horae_SM7675.conf
 system_ext/etc/horae/horae_SM8650.conf
 system_ext/etc/horae/horae_SM8650_CAIHONG.conf
 system_ext/etc/init/horae.rc
-system_ext/lib64/vendor.oplus.hardware.charger-V1-ndk.so
 system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
 
 # Hotword Enrollment
@@ -2865,7 +2864,6 @@ odm/bin/hw/wlschgd
 odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc
 odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/etc/charge.cfg
-odm/lib64/vendor.oplus.hardware.charger-V6-ndk.so
 
 # OPLUS Display
 odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service
