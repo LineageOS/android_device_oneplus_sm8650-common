@@ -34,6 +34,24 @@
       "parentUuid": "bee73a14_4c55c1c3",
       "revId": "697acc7a32b04db9e10e950f29635e8c5d40ae77",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dc04519_f6e18764",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 2882,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-06T12:30:32Z",
+      "side": 1,
+      "message": "Yea, we also keep it on sm8750. Nevermind.",
+      "parentUuid": "3a6215cf_afaf805f",
+      "revId": "697acc7a32b04db9e10e950f29635e8c5d40ae77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
