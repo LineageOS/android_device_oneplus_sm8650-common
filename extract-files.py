@@ -37,6 +37,9 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
+        'vendor.oplus.hardware.displaypanelfeature-V1-ndk',
+    ): lib_fixup_odm_suffix,
+    (
         'com.qti.sensor.lyt808',
         'com.qualcomm.qti.dpm.api@1.0',
         'libarcsoft_triple_sat',
