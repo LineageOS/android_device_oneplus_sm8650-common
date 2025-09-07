@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d8b55fd_83aedb1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-07T03:28:10Z",
+      "side": 1,
+      "message": "Bruno Martins \u003cbgcngm@gmail.com\u003e is it fine?",
+      "revId": "5ccb01f8fb5274c6404687a8f2e9a3d0228506bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
