@@ -16,6 +16,24 @@
       "message": "For some reason, the _odm suffix isn’t being added for a few blobs.\n\nsee: https://github.com/OnePlus-12-Development/proprietary_vendor_oneplus_sm8650-common/commit/a21f8ab44e416402762a826d52c40a8959d72631",
       "revId": "9adaf068686436296bcab291a943e3f0864add45",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f2f5b9c_5e767a23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-07T03:27:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c98d75ad_d46836e5",
+      "revId": "9adaf068686436296bcab291a943e3f0864add45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
