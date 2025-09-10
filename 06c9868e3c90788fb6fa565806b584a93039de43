@@ -34,6 +34,23 @@
       "parentUuid": "57cdcea7_cd245cad",
       "revId": "06c9868e3c90788fb6fa565806b584a93039de43",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2abec4ab_ef73c338",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2025-09-10T19:16:25Z",
+      "side": 1,
+      "message": "Lexus seems to be having issues without it",
+      "revId": "06c9868e3c90788fb6fa565806b584a93039de43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
