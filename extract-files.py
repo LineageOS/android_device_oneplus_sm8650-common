@@ -54,6 +54,7 @@ lib_fixups: lib_fixups_user_type = {
         'libdualcam_optical_zoom_control',
         'libdualcam_video_optical_zoom',
         'libhwconfigurationutil',
+        'libosensenativeproxy_client',
         'libpwirisfeature',
         'libpwirishalwrapper',
         'libtriplecam_optical_zoom_control',
@@ -64,6 +65,7 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.pixelworks.hardware.display@1.0',
         'vendor.pixelworks.hardware.display@1.1',
         'vendor.pixelworks.hardware.display@1.2',
+        'vendor.pixelworks.hardware.display-V2-ndk',
         'vendor.pixelworks.hardware.feature-V1-ndk',
         'vendor.pixelworks.hardware.feature@1.0',
         'vendor.pixelworks.hardware.feature@1.1',
@@ -130,7 +132,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'vendor/etc/media_codecs_pineapple.xml': blob_fixup()
+    ('vendor/etc/media_codecs_cliffs_v1.xml', 'vendor/etc/media_codecs_pineapple.xml'): blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
     'vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy': blob_fixup()
         .add_line_if_missing('sched_get_priority_min: 1')
