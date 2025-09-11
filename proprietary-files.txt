@@ -516,12 +516,6 @@ vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_w
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json
-vendor/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_enzo_boe_ili7838e_1264_2780_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_enzo_boe_ili7838e_1264_2780_evt_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_enzo_boe_ili7838e_1264_2780_high_pre_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_enzo_boe_ili7838e_1264_2780_pvt_bd_dsc_cmd_mode_panel.xml
 
 # Display postprocessing
 vendor/bin/hw/vendor.qti.hardware.display.color-service
@@ -598,11 +592,6 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 # ESE
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 
-# eSIM
-odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
-odm/etc/init/esim@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_esim.xml
-
 # EVA
 vendor/etc/eva/facedetection/bias.dat
 vendor/etc/eva/facedetection/weight.dat
@@ -620,56 +609,6 @@ vendor/etc/eva/itof/tuning_params_sensor_type_1.json
 vendor/lib64/libcv_common.so
 vendor/lib64/libeva.so
 vendor/lib64/libeva_util.so
-
-# EVA firmware
-vendor/firmware/evass-lt.b00
-vendor/firmware/evass-lt.b01
-vendor/firmware/evass-lt.b02
-vendor/firmware/evass-lt.b03
-vendor/firmware/evass-lt.b04
-vendor/firmware/evass-lt.b05
-vendor/firmware/evass-lt.b06
-vendor/firmware/evass-lt.b07
-vendor/firmware/evass-lt.b08
-vendor/firmware/evass-lt.b09
-vendor/firmware/evass-lt.b10
-vendor/firmware/evass-lt.b11
-vendor/firmware/evass-lt.b12
-vendor/firmware/evass-lt.b13
-vendor/firmware/evass-lt.b14
-vendor/firmware/evass-lt.b15
-vendor/firmware/evass-lt.b16
-vendor/firmware/evass-lt.b17
-vendor/firmware/evass-lt.b18
-vendor/firmware/evass-lt.b19
-vendor/firmware/evass-lt.mbn
-vendor/firmware/evass-lt.mdt
-vendor/firmware/evass.b00
-vendor/firmware/evass.b01
-vendor/firmware/evass.b02
-vendor/firmware/evass.b03
-vendor/firmware/evass.b04
-vendor/firmware/evass.b05
-vendor/firmware/evass.b06
-vendor/firmware/evass.b07
-vendor/firmware/evass.b08
-vendor/firmware/evass.b09
-vendor/firmware/evass.b10
-vendor/firmware/evass.b11
-vendor/firmware/evass.b12
-vendor/firmware/evass.b13
-vendor/firmware/evass.b14
-vendor/firmware/evass.b15
-vendor/firmware/evass.b16
-vendor/firmware/evass.b17
-vendor/firmware/evass.b18
-vendor/firmware/evass.b19
-vendor/firmware/evass.mbn
-vendor/firmware/evass.mdt
-
-# eUICC
-my_product/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
-my_product/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # FASTCV
 vendor/lib64/libfastcvdsp_stub.so
@@ -726,19 +665,6 @@ vendor/lib64/libkernelmanager.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
-
-# Graphics (Adreno firmware)
-vendor/firmware/gen70900_aqe.fw
-vendor/firmware/gen70900_sqe.fw
-vendor/firmware/gen70900_zap.mbn
-vendor/firmware/gen71100_gmu.bin
-vendor/firmware/gen71100_sqe.fw
-vendor/firmware/gen71100_zap.mbn
-vendor/firmware/gmu_gen70900.bin
-vendor/firmware/qps615_fw.bin
-vendor/gpu/kbc/sequence_manifest.bin
-vendor/gpu/kbc/unified_kbcs_64.bin
-vendor/gpu/kbc/unified_ksqs.bin
 
 # Graphics (Vulkan)
 vendor/lib64/hw/vulkan.adreno.so
@@ -1128,10 +1054,6 @@ odm/lib64/libaiboost_ubwc.so
 odm/lib64/libams.so
 odm/lib64/libarc.ion.so
 odm/lib64/libhta_hexagon_runtime_snpe.so
-
-# NFC
-odm/etc/nfc/libnfc-mtp-SN220.conf_22877:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_22877:vendor/etc/libnfc-nci.conf
 
 # OPLUS Log Core
 odm/bin/oldc_vnd
