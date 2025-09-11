@@ -69,6 +69,24 @@
       "parentUuid": "2abec4ab_ef73c338",
       "revId": "06c9868e3c90788fb6fa565806b584a93039de43",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1321bdef_b028c6ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2025-09-11T14:51:51Z",
+      "side": 1,
+      "message": "the camera libs in lexus seems to be searching for it",
+      "parentUuid": "e7ca9a03_f7de6813",
+      "revId": "06c9868e3c90788fb6fa565806b584a93039de43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
