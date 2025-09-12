@@ -16,7 +16,6 @@ ro.hardware.camera=oemlayer
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.virtualcomm=1
 ro.sys.reserve.integrate=true
-ro.vendor.oplus.radio.esim.feature=2
 ro.vendor.oplus.radio.project=1
 ro.vendor.oplus.radio.sar_regionmark=FCC
 
