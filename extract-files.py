@@ -28,13 +28,6 @@ namespace_imports = [
     'vendor/qcom/opensource/dataservices',
 ]
 
-def lib_fixup_all_suffixes(lib: str, partition: str, *args, **kwargs):
-    if partition == 'odm':
-        return f'{lib}_odm'
-    if partition == 'vendor':
-        return f'{lib}_vendor'
-    return lib
-
 def lib_fixup_odm_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'odm' else None
 
@@ -44,31 +37,8 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     (
-        'vendor.oplus.hardware.displaypanelfeature-V1-ndk',
-    ): lib_fixup_all_suffixes,
-    (
-        'com.qti.sensor.lyt808',
         'com.qualcomm.qti.dpm.api@1.0',
-        'libarcsoft_triple_sat',
-        'libarcsoft_triple_zoomtranslator',
-        'libdualcam_optical_zoom_control',
-        'libdualcam_video_optical_zoom',
-        'libhwconfigurationutil',
         'libosensenativeproxy_client',
-        'libpwirisfeature',
-        'libpwirishalwrapper',
-        'libtriplecam_optical_zoom_control',
-        'libtriplecam_video_optical_zoom',
-        'vendor.oplus.hardware.cammidasservice-V1-ndk',
-        'vendor.oplus.hardware.camera_rfi-V1-ndk',
-        'vendor.oplus.hardware.displaycolorfeature-V1-ndk',
-        'vendor.pixelworks.hardware.display@1.0',
-        'vendor.pixelworks.hardware.display@1.1',
-        'vendor.pixelworks.hardware.display@1.2',
-        'vendor.pixelworks.hardware.display-V2-ndk',
-        'vendor.pixelworks.hardware.feature-V1-ndk',
-        'vendor.pixelworks.hardware.feature@1.0',
-        'vendor.pixelworks.hardware.feature@1.1',
         'vendor.qti.ImsRtpService-V1-ndk',
         'vendor.qti.diaghal@1.0',
         'vendor.qti.hardware.dpmaidlservice-V1-ndk',
@@ -95,25 +65,6 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
         .add_needed('libshims_aidl_fingerprint_v3.oplus.so'),
-    'odm/lib64/libAlgoProcess.so': blob_fixup()
-        .replace_needed('android.hardware.graphics.common-V3-ndk.so', 'android.hardware.graphics.common-V6-ndk.so')
-        .remove_needed('android.hardware.graphics.common-V4-ndk.so'),
-    ('odm/lib64/libCOppLceTonemapAPI.so', 'odm/lib64/libSuperRaw.so', 'odm/lib64/libYTCommon.so', 'odm/lib64/libyuv2.so'): blob_fixup()
-        .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
-    ('odm/lib64/libEIS.so', 'odm/lib64/libEISLive.so', 'odm/lib64/libHIS.so', 'odm/lib64/libOPAlgoCamFaceBeautyCap.so', 'odm/lib64/libOGLManager.so'): blob_fixup()
-        .clear_symbol_version('AHardwareBuffer_allocate')
-        .clear_symbol_version('AHardwareBuffer_describe')
-        .clear_symbol_version('AHardwareBuffer_lock')
-        .clear_symbol_version('AHardwareBuffer_release')
-        .clear_symbol_version('AHardwareBuffer_unlock'),
-    'odm/lib64/libarcsoft_high_dynamic_range_v4.so': blob_fixup()
-        .clear_symbol_version('remote_handle_close')
-        .clear_symbol_version('remote_handle_invoke')
-        .clear_symbol_version('remote_handle_open')
-        .clear_symbol_version('remote_register_buf_attr')
-        .clear_symbol_version('remote_register_buf'),
-    'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
-        .add_needed('libui_shim.so'),
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
         .regex_replace('/my_product', '/product'),
     'system_ext/bin/wfdservice64': blob_fixup()
@@ -127,11 +78,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'-e "zram" -e "zsmalloc"', ''),
     'vendor/bin/vendor_modprobe.sh': blob_fixup()
         .regex_replace(r'\n.*OPLUS_BUG_STABILITY[\s\S]*?OPLUS_BUG_STABILITY.*\n', ''),
-    'vendor/etc/libnfc-nci.conf': blob_fixup()
-        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'vendor/etc/libnfc-nxp.conf': blob_fixup()
-        .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
-        .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     ('vendor/etc/media_codecs_cliffs_v1.xml', 'vendor/etc/media_codecs_pineapple.xml'): blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
     'vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy': blob_fixup()

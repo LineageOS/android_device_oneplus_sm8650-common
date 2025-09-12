@@ -57,13 +57,6 @@
         <item>10</item>
     </integer-array>
 
-    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
-    <integer-array name="config_availableColorModes">
-        <item>303</item>
-        <item>301</item>
-        <item>307</item>
-    </integer-array>
-
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/framework.jar"</item>
