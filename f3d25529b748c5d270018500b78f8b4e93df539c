@@ -16,6 +16,24 @@
       "message": "Not needed, iirc this is already in QCOM\u0027s uevent.",
       "revId": "f3d25529b748c5d270018500b78f8b4e93df539c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9b775f2_84f2fe53",
+        "filename": "init/ueventd.oplus.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-13T10:49:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "96e8cb41_7c2b1749",
+      "revId": "f3d25529b748c5d270018500b78f8b4e93df539c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
