@@ -52,6 +52,24 @@
       "parentUuid": "caa1122c_1429a9e1",
       "revId": "52b8a9e1f90f2624a0c2f7ceaa2ab6b9cfe2cd1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb497269_cfa124e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-13T10:30:22Z",
+      "side": 1,
+      "message": "Is that relevant tho? We don\u0027t flash user data image.",
+      "parentUuid": "0a9abe93_e9e5cb2e",
+      "revId": "52b8a9e1f90f2624a0c2f7ceaa2ab6b9cfe2cd1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
