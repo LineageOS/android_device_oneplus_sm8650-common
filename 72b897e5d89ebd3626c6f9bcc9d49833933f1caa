@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7ac5ff4_e61895d8",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-09-13T10:44:56Z",
+      "side": 1,
+      "message": "Does this work fine? I don\u0027t think ur supposed to do sku_platform for /vendor/etc/audio/audio_policy_configuration.xml",
+      "revId": "72b897e5d89ebd3626c6f9bcc9d49833933f1caa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
