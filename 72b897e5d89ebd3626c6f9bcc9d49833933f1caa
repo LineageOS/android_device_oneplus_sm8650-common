@@ -16,6 +16,24 @@
       "message": "Does this work fine? I don\u0027t think ur supposed to do sku_platform for /vendor/etc/audio/audio_policy_configuration.xml",
       "revId": "72b897e5d89ebd3626c6f9bcc9d49833933f1caa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4997eae8_c770ccce",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-13T11:00:04Z",
+      "side": 1,
+      "message": "works fine here. I did that by observing https://github.com/LineageOS/android_hardware_qcom_audio-ar/blob/0929a3b608b626f8731c209c93a9198e69cbd0f2/configs/pineapple/pineapple.mk#L131  and there is no /vendor/etc/audio/audio_policy_configuration.xml on stock",
+      "parentUuid": "b7ac5ff4_e61895d8",
+      "revId": "72b897e5d89ebd3626c6f9bcc9d49833933f1caa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
