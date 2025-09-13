@@ -2895,7 +2895,6 @@ vendor/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so;MODULE_SUFFIX=_
 odm/etc/uah/uahconfig.pb
 odm/lib64/liboplus-uah-client.so
 odm/lib64/libuahcore.so
-odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
 
 # OPLUS Project
 odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
