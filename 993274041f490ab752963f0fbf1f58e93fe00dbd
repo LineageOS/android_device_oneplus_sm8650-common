@@ -16,6 +16,24 @@
       "message": "why did you decommonize ANT+, EVA, VPU firmware?",
       "revId": "993274041f490ab752963f0fbf1f58e93fe00dbd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a177968e_c63e0180",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-13T18:37:29Z",
+      "side": 1,
+      "message": "Restored ANT+ and VPA. With common EVA firmware, camera remains black.",
+      "parentUuid": "dc5f7e43_17a1129f",
+      "revId": "993274041f490ab752963f0fbf1f58e93fe00dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
