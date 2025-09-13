@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96e8cb41_7c2b1749",
+        "filename": "init/ueventd.oplus.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-13T10:29:36Z",
+      "side": 1,
+      "message": "Not needed, iirc this is already in QCOM\u0027s uevent.",
+      "revId": "f3d25529b748c5d270018500b78f8b4e93df539c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
