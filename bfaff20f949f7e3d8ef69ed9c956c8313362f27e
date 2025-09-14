@@ -16,6 +16,24 @@
       "message": "move up",
       "revId": "bfaff20f949f7e3d8ef69ed9c956c8313362f27e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87b9a640_86d7ab39",
+        "filename": "init/ueventd.oplus.rc",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-14T10:05:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3ff75ca9_a384d60e",
+      "revId": "bfaff20f949f7e3d8ef69ed9c956c8313362f27e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
