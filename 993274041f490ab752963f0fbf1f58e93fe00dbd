@@ -34,6 +34,24 @@
       "parentUuid": "dc5f7e43_17a1129f",
       "revId": "993274041f490ab752963f0fbf1f58e93fe00dbd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "415cb8d4_3dd31112",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-14T04:49:47Z",
+      "side": 1,
+      "message": "VPU firmware also needs to be decommonized else camera doesn\u0027t work properly.",
+      "parentUuid": "a177968e_c63e0180",
+      "revId": "993274041f490ab752963f0fbf1f58e93fe00dbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
