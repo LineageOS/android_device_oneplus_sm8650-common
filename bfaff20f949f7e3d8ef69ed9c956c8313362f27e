@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ff75ca9_a384d60e",
+        "filename": "init/ueventd.oplus.rc",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-14T09:46:56Z",
+      "side": 1,
+      "message": "move up",
+      "revId": "bfaff20f949f7e3d8ef69ed9c956c8313362f27e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
