@@ -25,6 +25,7 @@ using android::init::InitPropertySet;
 namespace {
 constexpr std::string kCmdlineRegion = "oplus_region";
 const std::unordered_map<int, std::string> kRegionMap = {
+        {0, "EU"},
         {27, "IN"},
         {68, "EU"},
         {151, "CN"},
