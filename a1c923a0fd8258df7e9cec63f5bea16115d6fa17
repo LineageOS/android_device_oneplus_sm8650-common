@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f77f48e6_b6b25cc9",
+        "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-15T09:45:33Z",
+      "side": 1,
+      "message": "This not exist in stock",
+      "revId": "a1c923a0fd8258df7e9cec63f5bea16115d6fa17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c4367d1b_419903e3",
         "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
         "patchSetId": 10
@@ -48,6 +65,40 @@
       "writtenOn": "2025-09-15T09:26:27Z",
       "side": 1,
       "message": "Remove comment",
+      "revId": "a1c923a0fd8258df7e9cec63f5bea16115d6fa17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "167c7278_5e29fd95",
+        "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-15T09:45:33Z",
+      "side": 1,
+      "message": "This not exist in stock",
+      "revId": "a1c923a0fd8258df7e9cec63f5bea16115d6fa17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6858616_9da07cb9",
+        "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-15T09:45:33Z",
+      "side": 1,
+      "message": "seems, it is a oplus changes",
       "revId": "a1c923a0fd8258df7e9cec63f5bea16115d6fa17",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
