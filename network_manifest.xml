@@ -66,6 +66,14 @@
         </interface>
     </hal>
     <hal format="aidl">
+        <name>android.hardware.secure_element</name>
+        <version>1</version>
+      <interface>
+        <name>ISecureElement</name>
+        <instance>eSE1</instance>
+      </interface>
+    </hal>
+    <hal format="aidl">
         <name>vendor.qti.hardware.data.connectionaidl</name>
         <version>1</version>
         <interface>
