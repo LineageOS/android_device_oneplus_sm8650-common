@@ -16,6 +16,23 @@
       "message": "since both of avalon and lexus has this.",
       "revId": "647e3b6237dd3857e8e07b63d266d7aa90ea127c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a515de2_9ec37f7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-15T16:10:51Z",
+      "side": 1,
+      "message": "We already included in common tree.",
+      "revId": "647e3b6237dd3857e8e07b63d266d7aa90ea127c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
