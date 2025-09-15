@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ab3c7e32_5d3cd6ee",
+        "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-15T12:33:12Z",
+      "side": 1,
+      "message": "It\u0027s present on avalon stock. But can be removed if needed as it\u0027s not required for avalon.",
+      "parentUuid": "f77f48e6_b6b25cc9",
+      "revId": "a1c923a0fd8258df7e9cec63f5bea16115d6fa17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c4367d1b_419903e3",
         "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
         "patchSetId": 10
