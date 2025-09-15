@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0cb57999_90526058",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 2315,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-15T06:38:50Z",
+      "side": 0,
+      "message": "This can stay, I think.",
+      "revId": "265f3e99501fef25d07e081fdbbebed3614f0298",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
