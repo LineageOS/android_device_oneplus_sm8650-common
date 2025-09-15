@@ -16,6 +16,24 @@
       "message": "is this needed?",
       "revId": "265f3e99501fef25d07e081fdbbebed3614f0298",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de07e0a9_153959d8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 11
+      },
+      "lineNbr": 3421,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-15T14:25:42Z",
+      "side": 1,
+      "message": "Was added by mistake. Idk what it does",
+      "parentUuid": "a6b02744_69227069",
+      "revId": "265f3e99501fef25d07e081fdbbebed3614f0298",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
