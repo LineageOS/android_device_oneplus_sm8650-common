@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "519b35c5_caa99406",
+        "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
+        "patchSetId": 12
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-16T06:21:08Z",
+      "side": 1,
+      "message": "restored",
+      "revId": "9a6e10914a01880d0b69b85aa37a44be9ca05e85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7bc74668_7c992b93",
+        "filename": "init/init.kernel.post_boot-cliffs_default_3_4_1.sh",
+        "patchSetId": 12
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-16T06:21:08Z",
+      "side": 1,
+      "message": "restored, this is a qcom change",
+      "revId": "9a6e10914a01880d0b69b85aa37a44be9ca05e85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
