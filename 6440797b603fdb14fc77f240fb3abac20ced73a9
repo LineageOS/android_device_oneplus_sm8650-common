@@ -53,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "34802b21_c5a069bf",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 625,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-17T09:38:22Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "359063f7_12a2df4b",
+      "revId": "6440797b603fdb14fc77f240fb3abac20ced73a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b6d17dcb_4bf15a1c",
@@ -154,6 +172,24 @@
       "side": 0,
       "message": "Doesn\u0027t boot with commmon adreno firmware.",
       "parentUuid": "2b2a725c_163b2c64",
+      "revId": "6440797b603fdb14fc77f240fb3abac20ced73a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2295d1ee_62230fe1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 731,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-17T09:38:22Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "84e569dd_25bde069",
       "revId": "6440797b603fdb14fc77f240fb3abac20ced73a9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
