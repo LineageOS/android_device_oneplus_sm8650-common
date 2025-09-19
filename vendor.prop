@@ -6,13 +6,6 @@ af.fast_track_multiplier=1
 audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 audio.offload.video=true
-audio.sys.mute.latency.factor=2
-audio.sys.noisy.broadcast.delay=600
-audio.sys.offload.pstimeout.secs=3
-persist.audio.fluence.speaker=true
-persist.audio.fluence.voicecall=true
-persist.audio.fluence.voicecomm=true
-persist.audio.fluence.voicerec=false
 persist.vendor.audio.ambisonic.auto.profile=false
 persist.vendor.audio.ambisonic.capture=false
 persist.vendor.audio.apptype.multirec.enabled=false
@@ -111,8 +104,6 @@ bluetooth.hardware.power.idle_cur_ma=4
 bluetooth.hardware.power.operating_voltage_mv=4000
 bluetooth.hardware.power.rx_cur_ma=18
 bluetooth.hardware.power.tx_cur_ma=33
-bluetooth.hfp.codec_aptx_voice.enabled=true
-bluetooth.leaudio.dual_bidirection_swb.supported=true
 bluetooth.profile.a2dp.source.enabled?=true
 bluetooth.profile.asha.central.enabled?=true
 bluetooth.profile.avrcp.target.enabled?=true
@@ -133,38 +124,19 @@ bluetooth.profile.pan.nap.enabled?=true
 bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.vcp.controller.enabled=true
-persist.bluetooth.a2dp_aac_abr.enable=true
-persist.bluetooth.a2dp.lhdc=true
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
-persist.bluetooth.absvolume_support=true
-persist.bluetooth.bluetooth_asd_enable=true
-persist.bluetooth.default.power_level=10
-persist.bluetooth.hfp_available_guard=true
-persist.bluetooth.leaudio.bypass_allow_list=true
-persist.bluetooth.leaudio.notify.idle.during.call=true
-persist.bluetooth.rc.drop_auto_play_ex=true
-persist.bluetooth.rc.drop_auto_play=true
-persist.bluetooth.smart_audio.feature_mask=0x07DA
-persist.bluetooth.snooplogfilter.profiles.a2dp.enabled=true
-persist.bluetooth.snooplogfilter.profiles.map=fullfilter
-persist.bluetooth.snooplogfilter.profiles.pbap=fullfilter
-persist.bluetooth.snooplogfilter.profiles.rfcomm.enabled=true
-persist.bluetooth.spatial_audio_support=true
 persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
 persist.vendor.bluetooth.3rd.lhdcv5.support=true
 persist.vendor.bluetooth.leaudio_mode=ums-cg
 persist.vendor.bluetooth.modem_nv_support=true
-persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
-persist.vendor.btstack.enable.lpa=true
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptiver2
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
 persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
 persist.vendor.qcom.bluetooth.dualmode_transport_support=true
 persist.vendor.qcom.bluetooth.lossless_aptx_adaptive_le.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
-ro.bluetooth.leaudio_offload.supported=true
 
 # Camera
 ro.camera.enableCamera1MaxZsl=1
@@ -263,10 +235,6 @@ ro.surface_flinger.use_color_management=true
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 
-# IMS
-persist.vendor.ims.rtp.enableqxdm=15
-persist.vendor.ims.vt.enableadb=3
-
 # Incremental FS
 ro.incremental.enable=yes
 
@@ -276,7 +244,6 @@ ro.hardware.keystore_desede=true
 # Media
 debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
-media.stagefright.audio.deep=false
 vendor.media.omx=0
 
 # Pasr
