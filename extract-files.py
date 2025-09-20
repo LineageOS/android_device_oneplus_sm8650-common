@@ -123,6 +123,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/bin/system_dlkm_modprobe.sh': blob_fixup()
         .regex_replace(r'.*\bzram or zsmalloc\b.*\n', '')
         .regex_replace(r'-e "zram" -e "zsmalloc"', ''),
+    'vendor/bin/vendor_modprobe.sh': blob_fixup()
+        .regex_replace(r'\n.*OPLUS_BUG_STABILITY[\s\S]*?OPLUS_BUG_STABILITY.*\n', ''),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
