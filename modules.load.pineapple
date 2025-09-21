@@ -6,6 +6,7 @@ audio_prm_dlkm.ko
 audpkt_ion_dlkm.ko
 bam_dma.ko
 bcl_soc.ko
+bhs-irq-controller.ko
 boot_stats.ko
 bt_fm_slim.ko
 btpower.ko
