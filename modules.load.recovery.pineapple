@@ -5,6 +5,7 @@ arm_smmu.ko
 bam_dma.ko
 bcl_pmic5.ko
 bcl_soc.ko
+bhs-irq-controller.ko
 boot_stats.ko
 bwmon.ko
 bwprof.ko
