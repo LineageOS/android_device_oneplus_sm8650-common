@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "966e0ff2_0371f166",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-22T12:24:08Z",
+      "side": 1,
+      "message": "Device specific, avalon doesn\u0027t support VRR",
+      "revId": "61274fc9f51ec87bf166c5ecf661e219794734b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
