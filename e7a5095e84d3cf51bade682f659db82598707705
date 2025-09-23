@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "316e0402_8f3173c5",
+        "filename": "common.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-23T15:28:26Z",
+      "side": 1,
+      "message": "Oops, will fix it",
+      "parentUuid": "74d03975_cbd2fe73",
+      "range": {
+        "startLine": 170,
+        "startChar": 0,
+        "endLine": 170,
+        "endChar": 91
+      },
+      "revId": "e7a5095e84d3cf51bade682f659db82598707705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8c1e359d_c218e84c",
         "filename": "common.mk",
         "patchSetId": 6
@@ -37,6 +61,24 @@
       "writtenOn": "2025-09-22T12:42:22Z",
       "side": 1,
       "message": "Sidenote: you can remove this in a separate change.",
+      "revId": "e7a5095e84d3cf51bade682f659db82598707705",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b405b4df_f3a7b161",
+        "filename": "common.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-23T15:28:26Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8c1e359d_c218e84c",
       "revId": "e7a5095e84d3cf51bade682f659db82598707705",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
