@@ -16,6 +16,24 @@
       "message": "It is being copied to sku specific folder instead of being sku agnostic",
       "revId": "5c26a71135bd813b58b2dd29a26e62d48e3a1f2b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d308765b_4209f7ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-09-28T08:19:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93616606_eb53a6cb",
+      "revId": "5c26a71135bd813b58b2dd29a26e62d48e3a1f2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
