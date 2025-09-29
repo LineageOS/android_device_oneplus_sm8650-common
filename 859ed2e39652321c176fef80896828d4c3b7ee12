@@ -16,6 +16,24 @@
       "message": "avalon doesn\u0027t support eSIM.",
       "revId": "859ed2e39652321c176fef80896828d4c3b7ee12",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fbf915e_8e89c9bf",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 26
+      },
+      "lineNbr": 2322,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-29T08:08:27Z",
+      "side": 0,
+      "message": "Without the Euicc service, the blobs never load",
+      "parentUuid": "6212e1ad_0e6c9d0f",
+      "revId": "859ed2e39652321c176fef80896828d4c3b7ee12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
