@@ -16,6 +16,24 @@
       "message": "Does it need to be explicitly loaded?",
       "revId": "b0f31b82ff5c0a16d9831f7789db5545c2b62775",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd856826_f9fc5405",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-09-29T14:09:51Z",
+      "side": 1,
+      "message": "Yes, Qualcomm introduced in recent tag.",
+      "parentUuid": "bb0a80dc_058fec80",
+      "revId": "b0f31b82ff5c0a16d9831f7789db5545c2b62775",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
