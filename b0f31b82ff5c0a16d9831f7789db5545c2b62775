@@ -34,6 +34,24 @@
       "parentUuid": "bb0a80dc_058fec80",
       "revId": "b0f31b82ff5c0a16d9831f7789db5545c2b62775",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fa5f42a_fc1172de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-29T14:10:05Z",
+      "side": 1,
+      "message": "Ahhh, nevermind. You don\u0027t have the setup from sm8550 where I only load the real modules and deps are handled automatically.",
+      "parentUuid": "bb0a80dc_058fec80",
+      "revId": "b0f31b82ff5c0a16d9831f7789db5545c2b62775",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
