@@ -104,6 +104,23 @@
       "message": "With sm8450, I had freezes and overheating which only resolved when i hard reset. Maybe i lacked some relevant kernel drivers. The issue got resolved after using the stub service.",
       "revId": "06c9868e3c90788fb6fa565806b584a93039de43",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "811409c4_6df76495",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-10-03T12:28:27Z",
+      "side": 1,
+      "message": "Fingerprint HAL needs it.\n\nElse throws this on every authentication:\n\n```performanceInterface is NULL!!!```",
+      "revId": "06c9868e3c90788fb6fa565806b584a93039de43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
