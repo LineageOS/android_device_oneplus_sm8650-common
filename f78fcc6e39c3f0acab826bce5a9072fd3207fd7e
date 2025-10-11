@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c729c0f5_0bfb5f7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-11T14:46:08Z",
+      "side": 1,
+      "message": "What out that this has not been rebased on the latest patchset of lineage-22.2 HEAD.",
+      "revId": "f78fcc6e39c3f0acab826bce5a9072fd3207fd7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
