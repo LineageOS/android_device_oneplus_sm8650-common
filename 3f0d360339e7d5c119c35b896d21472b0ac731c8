@@ -33,6 +33,23 @@
       "message": "Okay nevermind, i didn\u0027t see its guarded",
       "revId": "3f0d360339e7d5c119c35b896d21472b0ac731c8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07189266_ff8e08cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-16T14:20:40Z",
+      "side": 1,
+      "message": "@chandudyavanapelli3@gmail.com, before you merge this. Where do you have the overlay that defines the udfps sensor for doze mode?",
+      "revId": "3f0d360339e7d5c119c35b896d21472b0ac731c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
