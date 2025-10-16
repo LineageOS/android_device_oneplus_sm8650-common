@@ -16,6 +16,23 @@
       "message": "This should be device specific, caihong doesn\u0027t have udfps",
       "revId": "3f0d360339e7d5c119c35b896d21472b0ac731c8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80af7518_132d3dbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-10-16T14:04:04Z",
+      "side": 1,
+      "message": "Okay nevermind, i didn\u0027t see its guarded",
+      "revId": "3f0d360339e7d5c119c35b896d21472b0ac731c8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
