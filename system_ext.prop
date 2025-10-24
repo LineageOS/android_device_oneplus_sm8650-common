@@ -5,6 +5,7 @@ tunnel.audio.encode=true
 use.voice.path.for.pcm.voip=true
 
 # Bluetooth
+bluetooth.profile.sap.server.enabled=false
 persist.bluetooth.bqr.choppy_threshold=1,1
 persist.bluetooth.bqr.event_mask=0x8004001E
 persist.bluetooth.bqr.min_interval_ms=6000
