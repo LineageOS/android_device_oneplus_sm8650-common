@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71337039_f67f392e",
+        "filename": "init/fstab.qcom",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-25T09:37:30Z",
+      "side": 1,
+      "message": "why no system_dlkm",
+      "revId": "054fbaecbd23fd2861586d04646acdaa9c7b95d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
