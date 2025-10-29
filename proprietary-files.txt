@@ -750,7 +750,6 @@ vendor/etc/lm/sPLHFeature.xml
 vendor/etc/perf/avcsysnodesconfigs.xml
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/commonsysnodesconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetavcsysnodesconfigs.xml
 vendor/etc/perf/targetconfig.xml
@@ -762,7 +761,6 @@ vendor/etc/pwr/AODPowerOptFeature.xml
 vendor/etc/pwr/GamePowerOptFeature.xml
 vendor/etc/pwr/OffScreenPowerOptFeature.xml
 vendor/etc/pwr/PSMPowerOptFeature.xml
-vendor/etc/pwr/PowerFeatureConfig.xml
 vendor/etc/pwr/StandbyFeature.xml
 vendor/etc/pwr/VideoPowerOptFeature.xml
 vendor/etc/seccomp_policy/qsap_qapeservice.policy
