@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c328a7b_f6b23da2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-29T21:54:30Z",
+      "side": 1,
+      "message": "If I am not mistaken, caihong doesn\u0027t have a proximity sensor.",
+      "revId": "47a8fdd601391202a10a037cba0fdaac7dcfe641",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
