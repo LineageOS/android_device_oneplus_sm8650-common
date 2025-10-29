@@ -35,7 +35,7 @@
 
         <!-- Type="1", main launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="1" Enable="false" Timeout="2000" Target="pineapple"
+            Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="pineapple"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF, 0x4080C300, 2956800,
                        0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40808300, 2956800, 0x41848000, 0x104410,
                        0x41844000, 0x104410, 0x42C10000, 0x1, 0x43488000, 0x401640,
@@ -50,7 +50,7 @@
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <!-- Type="1", main launch of 2sec -->
         <Config
-           Id="0x00001081" Type="1" Enable="false" Timeout="2000" Target="cliffs"
+           Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="cliffs"
            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                       0x40800000, 1401, 0x40800100, 1344, 0x40800200, 1651" />
 
@@ -72,7 +72,7 @@
 
         <!-- Type="3", FA launch boost of 15sec -->
         <Config
-            Id="0x00001081" Type="3" Enable="false" Timeout="15000" Target="pineapple"
+            Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="pineapple"
             Resources="0x40C00000, 0x3, 0x40CF4000, 0x0041002D,
                       0x40C74000, 0xFC, 0x40408000, 0x63, 0x40CE0000, 0x003C0028,
                       0x40CE0200, 0x003C0028, 0x40CE0300, 0x003C0028" />
@@ -83,7 +83,7 @@
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- Type="3", FA launch boost of 15sec -->
         <Config
-           Id="0x00001081" Type="3" Enable="false" Timeout="15000" Target="cliffs"
+           Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="cliffs"
           Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055, 0x40408000, 0x5,
           0x40C74000, 0xF8" />
 
@@ -106,7 +106,7 @@
 
         <!-- Type="6", FA launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="6" Enable="false" Timeout="2000" Target="pineapple"
+            Id="0x00001081" Type="6" Enable="true" Timeout="2000" Target="pineapple"
             Resources="0x40C00000, 0x1, 0x40CF4000, 0x0041002D,
                        0x40C74000, 0xFC, 0x40408000, 0x63, 0x40CE0000, 0x003C0028,
                        0x40CE0200, 0x003C0028, 0x40CE0300, 0x003C0028, 0x42C10000, 0x1, 0x40800200, 0x76C,
@@ -124,7 +124,7 @@
 
         <!-- Type="6", Game Launch boost -->
         <Config
-            Id="0x00001081" Type="6" Enable="false" Timeout="2000" Target="cliffs"
+            Id="0x00001081" Type="6" Enable="true" Timeout="2000" Target="cliffs"
             Resources="0x40C68000, 60, 0x40C68200, 60, 0x40800000, 1190, 0x40800200, 1209,
                        0x41448000, 20000, 0x41448200, 20000, 0x40408000, 0x63, 0x40C74000, 0xF8" />
 
@@ -148,7 +148,7 @@
 
         <!-- Type="7", main launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="7" Enable="false" Timeout="2000" Target="pineapple"
+            Id="0x00001081" Type="7" Enable="true" Timeout="2000" Target="pineapple"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x4080C300, 2956800, 0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF,
                        0x40808300, 2956800, 0x41848000, 0x104410, 0x41844000, 0x104410, 0x42C10000, 0x1,
@@ -172,7 +172,7 @@
         <!-- Type="7", main launch of 2sec -->
 
         <Config
-            Id="0x00001081" Type="7" Enable="false" Timeout="2000" Target="cliffs"
+            Id="0x00001081" Type="7" Enable="true" Timeout="2000" Target="cliffs"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x4080C000, 1708800, 0x4080C100, 1593600, 0x4080C200, 1766400,
                        0x40808000, 1190000, 0x40808100, 1113600, 0x40808200, 1209600,
@@ -190,7 +190,7 @@
 
         <!-- Type="8", Main App Launch Boost : Duration governed by LAL -->
         <Config
-            Id="0x00001081" Type="8" Enable="false" Timeout="2000" Target="pineapple"
+            Id="0x00001081" Type="8" Enable="true" Timeout="2000" Target="pineapple"
             Resources="0x40C00000, 0x3, 0x40CF4000, 0x0041002D,
                       0x40C74000, 0xFC, 0x40408000, 0x63, 0x40CE0000, 0x003C0028,
                       0x40CE0200, 0x003C0028, 0x40CE0300, 0x003C0028" />
@@ -200,7 +200,7 @@
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- Type="8", main launch of 2sec -->
         <Config
-            Id="0x00001081" Type="8" Enable="false" Timeout="2000" Target="cliffs"
+            Id="0x00001081" Type="8" Enable="true" Timeout="2000" Target="cliffs"
             Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055, 0x40C74000, 0xF8"
             IgnoreHints="0x00001083" />
 
@@ -223,7 +223,7 @@
 
         <!-- Type="9", Main App Launch Boost : Duration governed by LGL -->
         <Config
-            Id="0x00001081" Type="9" Enable="false" Timeout="2000" Target="pineapple"
+            Id="0x00001081" Type="9" Enable="true" Timeout="2000" Target="pineapple"
             Resources="0x40C00000, 0x1, 0x40CF4000, 0x0041002D,
                        0x40C74000, 0xFC, 0x40408000, 0x63, 0x40CE0000, 0x003C0028,
                        0x40CE0200, 0x003C0028, 0x40CE0300, 0x003C0028, 0x42C10000, 0x1,
@@ -243,7 +243,7 @@
         <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
         <!-- Type="9", Main Game Launch Boost : Duration governed by LGL -->
         <Config
-            Id="0x00001081" Type="9" Enable="false" Target="cliffs" Timeout="2000"
+            Id="0x00001081" Type="9" Enable="true" Target="cliffs" Timeout="2000"
             Resources="0x40C00000, 0x3, 0x40CF4000, 0x00640055, 0x40C68000, 60,
                        0x40C68200, 60, 0x4080C000, 1286400, 0x4080C200, 1324800,
                        0x40808000, 940800, 0x40808200, 960000, 0x41448000, 20000,
@@ -299,7 +299,7 @@
     <!--app launch boost (attach application) -->
         <!-- SCHED_TASK_BOOST resource opcode, value-->
         <Config
-            Id="0x00001081" Type="103" Enable="false" Timeout="2000" Target="pineapple,cliffs"
+            Id="0x00001081" Type="103" Enable="true" Timeout="2000" Target="pineapple,cliffs"
             Resources="0x40C80000, 0x0" />
 
     <!--app attach launch base boost (LL app attach) -->
@@ -318,7 +318,7 @@
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ TITANIUM Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="false" Timeout="400" Target="pineapple"
+            Id="0x00001083" Enable="true" Timeout="400" Target="pineapple"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF, 0x40804300, 0xFFF,
                        0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40800300, 0xFFF" />
         <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
@@ -328,7 +328,7 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="false" Timeout="400" Target="cliffs"
+            Id="0x00001083" Enable="true" Timeout="400" Target="cliffs"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF" />
 
@@ -336,7 +336,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- PID Affine opcode,value -->
         <Config
-            Id="0x000010A9" Enable="false" Timeout="400"  Target="cliffs" Fps="60, 90"
+            Id="0x000010A9" Enable="true" Timeout="400"  Target="cliffs" Fps="60, 90"
             Resources="0x40800000, 1500, 0x42C20000, 1" />
 
     <!--Vertical Scroll boost-->
@@ -362,40 +362,40 @@
 
         <!-- Type="1", Vertical Scroll boost -->
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="pineapple" Fps="60"
+            Id="0x00001080" Type="1" Enable="true" Target="pineapple" Fps="60"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="pineapple" Fps="90"
+            Id="0x00001080" Type="1" Enable="true" Target="pineapple" Fps="90"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="pineapple" Fps="120"
+            Id="0x00001080" Type="1" Enable="true" Target="pineapple" Fps="120"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="pineapple" Fps="144"
+            Id="0x00001080" Type="1" Enable="true" Target="pineapple" Fps="144"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1100000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="pineapple" Fps="180"
+            Id="0x00001080" Type="1" Enable="true" Target="pineapple" Fps="180"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1100000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="pineapple" Fps="240"
+            Id="0x00001080" Type="1" Enable="true" Target="pineapple" Fps="240"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
@@ -410,7 +410,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <!-- Type="1", Vertical Scroll boost -->
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="cliffs"
+            Id="0x00001080" Type="1" Enable="true" Target="cliffs"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1190, 0x40800100, 1113, 0x40800200, 1094,
                        0x40C00000, 2, 0x41848000, 0xE3C88" />
 
@@ -424,7 +424,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="cliffs" Fps="90"
+            Id="0x00001080" Type="1" Enable="true" Target="cliffs" Fps="90"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1593, 0x40800100, 1344, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF8, 0x40408000, 0x27, 0x41848000, 0xE3C88" />
 
@@ -441,7 +441,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="cliffs" Fps="120"
+            Id="0x00001080" Type="1" Enable="true" Target="cliffs" Fps="120"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1824, 0x40800100, 1344, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF8, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41848000, 0xE3C88" />
@@ -461,7 +461,7 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="1" Enable="false" Target="cliffs" Fps="144"
+            Id="0x00001080" Type="1" Enable="true" Target="cliffs" Fps="144"
             Resources="0x4303C000, 0xA6428, 0x40800000, 1824, 0x40800100, 1344, 0x40800200, 1651,
                        0x40C00000, 2, 0x40C74000, 0xF8, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41844000, 0xE3C88, 0x43480000, 0xC9900,
@@ -490,40 +490,40 @@
         <!-- TIMEOUT 80ms -->
         <!-- Type="4", Prefling boost -->
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="pineapple" Fps="60"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="pineapple" Fps="60"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="pineapple" Fps="90"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="pineapple" Fps="90"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="pineapple" Fps="120"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="pineapple" Fps="120"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="pineapple" Fps="144"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="pineapple" Fps="144"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1100000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="pineapple" Fps="180"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="pineapple" Fps="180"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1100000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="pineapple" Fps="240"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="pineapple" Fps="240"
             Resources="0x4303C000, 0xA6428, 0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
@@ -541,8 +541,9 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="80" Target="cliffs"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1190, 0x40800100, 1113, 0x40800200, 1094,
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="cliffs"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1190000, 0x4080C100, 1113000, 0x4080C200, 1094000,
+                       0x40808000, 787000, 0x40808100, 787000, 0x40808200, 787000,
                        0x40C00000, 2, 0x41848000, 0xE3C88" />
 
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -558,8 +559,9 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="115" Target="cliffs" Fps="90"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1593, 0x40800100, 1344, 0x40800200, 1459,
+            Id="0x00001080" Type="4" Enable="true" Timeout="115" Target="cliffs" Fps="90"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1593000, 0x4080C100, 1344000, 0x4080C200, 1459000,
+                       0x40808000, 787000, 0x40808100, 787000, 0x40808200, 787000,
                        0x40C00000, 2, 0x40C74000, 0xF8, 0x40408000, 0x27, 0x41848000, 0xE3C88" />
 
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -578,8 +580,9 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="115" Target="cliffs" Fps="120"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1824, 0x40800100, 1344, 0x40800200, 1651,
+            Id="0x00001080" Type="4" Enable="true" Timeout="115" Target="cliffs" Fps="120"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1824000, 0x4080C100, 1344000, 0x4080C200, 1651000,
+                       0x40808000, 1056000, 0x40808100, 787000, 0x40808200, 1094000,
                        0x40C00000, 2, 0x40C74000, 0xF8, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41848000, 0xE3C88" />
 
@@ -601,8 +604,9 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
         <Config
-            Id="0x00001080" Type="4" Enable="false" Timeout="115" Target="cliffs" Fps="144"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1824, 0x40800100, 1344, 0x40800200, 1651,
+            Id="0x00001080" Type="4" Enable="true" Timeout="115" Target="cliffs" Fps="144"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1824000, 0x4080C100, 1344000, 0x4080C200, 1651000,
+                       0x40808000, 1056000, 0x40808100, 787000, 0x40808200, 1094000,
                        0x40C00000, 2, 0x40C74000, 0xF8, 0x40408000, 0x27, 0x41000000, 3,
                        0x40C78000, 0, 0x40C7C000, 0, 0x41844000, 0xE3C88, 0x43480000, 0xC9900,
                        0x41848000, 0xE3C88" />
@@ -619,7 +623,7 @@
 
         <!-- Type="", MTP boost -->
         <Config
-            Id="0x00001086" Enable="false" Target="pineapple"
+            Id="0x00001086" Enable="true" Target="pineapple"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804300, 0xFFF,
                        0x40800000, 1800, 0x40800100, 1400, 0x40800300, 1800, 0x40C48000,0x3F" />
         <!-- SCHEDBOOST resource opcode, value-->
@@ -633,7 +637,7 @@
 
         <!-- Type="", MTP boost -->
         <Config
-            Id="0x00001086" Enable="false" Target="cliffs"
+            Id="0x00001086" Enable="true" Target="cliffs"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000, 1401, 0x40800100, 1363, 0x40800200, 1459, 0x42C10000, 0x1" />
 
@@ -658,40 +662,40 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_TITANIUM resource opcode, value -->
         <!-- Type="1", Drag boost -->
         <Config
-            Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="pineapple" Fps="60"
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="pineapple" Fps="60"
             Resources="0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="pineapple" Fps="90"
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="pineapple" Fps="90"
             Resources="0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="pineapple" Fps="120"
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="pineapple" Fps="120"
             Resources="0x4080C000, 1000000, 0x4080C100, 1100000, 0x4080C200, 1000000,
                        0x4080C300, 1000000, 0x40C00000, 0x2, 0x43458000, 0xD2F00, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1000000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="pineapple" Fps="144"
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="pineapple" Fps="144"
             Resources="0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1100000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="pineapple" Fps="180"
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="pineapple" Fps="180"
             Resources="0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
                        0x40CE0200, 0x0023000A, 0x40808000, 600000, 0x40808100, 1100000, 0x40808200, 800000,
                        0x40808300, 600000" />
         <Config
-            Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="pineapple" Fps="240"
+            Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="pineapple" Fps="240"
             Resources="0x4080C000, 1300000, 0x4080C100, 1200000, 0x4080C200, 1300000,
                        0x4080C300, 1300000, 0x40C00000, 0x2, 0x43458000, 0x114900, 0x40C74000, 0xFF,
                        0x40408000, 0x63, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0, 0x41000200, 1,
@@ -708,8 +712,9 @@
 
         <!-- Type="1", Drag boost -->
         <Config
-             Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="cliffs"
-             Resources="0x40800000, 1190, 0x40800100, 1113, 0x40800200, 1094,
+             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="cliffs"
+             Resources="0x4080C000, 1190000, 0x4080C100, 902000, 0x4080C200, 787000,
+                        0x40808000, 940000, 0x40808100, 787000, 0x40808200, 633000,
                         0x41848000, 0xE3C88" />
 
         <!-- WALT_ADAPTIVE_HIGH_FREQ_BIG resource opcode, value -->
@@ -723,15 +728,11 @@
         <!-- L3_MEMLAT_MIN_FREQ_GOLD resource opcode, value -->
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
 
-        <Config
-             Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="cliffs" Fps="120"
-             Resources="0x40800000, 1190, 0x40800100, 1113, 0x40800200, 1094, 0x40C00000, 2,
-                        0x4303C000, 0xA6428, 0x43480000, 0xC9900, 0x41848000, 0xE3C88" />
-
          <Config
-             Id="0x00001087" Type="1" Enable="false" Timeout="0" Target="cliffs" Fps="144"
-             Resources="0x40800000, 1190, 0x40800100, 1113, 0x40800200, 1094, 0x40C00000, 2,
-                        0x4303C000, 0xA6428, 0x43480000, 0x114900, 0x41848000, 0xE3C88" />
+             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="cliffs" Fps="120, 144, 180, 240"
+             Resources="0x4080C000, 1920000, 0x4080C100, 1478000, 0x4080C200, 787000,
+                        0x40808000, 1497000, 0x40808100, 1017000, 0x40808200, 633000,
+                        0x40C00000, 2, 0x4303C000, 0xA6428, 0x43480000, 0x114900, 0x41848000, 0xE3C88" />
 
     <!--PackageInstall boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -748,7 +749,7 @@
         <!-- Type="", Package Install boost -->
 
         <Config
-            Id="0x00001088" Enable="false" Target="pineapple"
+            Id="0x00001088" Enable="true" Target="pineapple"
             Resources="0x40C00000, 0x2, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40804300, 0xFFF, 0x40800000,0xFFF, 0x40800100,0xFFF, 0x40800200, 0xFFF,
                        0x40800300, 0xFFF, 0x40CA0000, 0, 0x40CCC000, 0" />
@@ -764,7 +765,7 @@
         <!-- SCHED_FORCE_LB_ENABLE resource opcode, value-->
         <!-- Type="", Package Install boost -->
         <Config
-            Id="0x00001088" Enable="false" Target="cliffs"
+            Id="0x00001088" Enable="true" Target="cliffs"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40CA0000, 0, 0x40C00000, 2,
                        0x40CCC000, 0" />
@@ -782,7 +783,7 @@
         <!-- Type="", Rotation latency boost -->
 
         <Config
-            Id="0x00001089" Enable="false" Timeout="1500" Target="pineapple"
+            Id="0x00001089" Enable="true" Timeout="1500" Target="pineapple"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40804300, 0xFFF, 0x40800000,0xFFF, 0x40800100,0xFFF, 0x40800200,0xFFF,
                        0x40800300,0xFFF" />
@@ -796,7 +797,7 @@
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <!-- Type="", Rotation latency boost -->
         <Config
-            Id="0x00001089" Enable="false" Timeout="1500" Target="cliffs"
+            Id="0x00001089" Enable="true" Timeout="1500" Target="cliffs"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
                        0x40800000,0xFFF, 0x40800100,0xFFF, 0x40800200,0xFFF" />
 
@@ -814,7 +815,7 @@
         <!-- Type="", Rotation animation boost -->
 
         <Config
-            Id="0x00001090" Enable="false" Timeout="1000" Target="cliffs"
+            Id="0x00001090" Enable="true" Timeout="1000" Target="cliffs"
             Resources="0x40800100, 1344, 0x42804000, 0" />
 
     <!--Performance mode-->
@@ -852,13 +853,13 @@
     <!--Display on Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-                Id="0x00001041" Enable="false" Timeout="0" Target="pineapple,cliffs"
+                Id="0x00001041" Enable="true" Timeout="0" Target="pineapple,cliffs"
                 Resources="0x40000000, 1" />
 
     <!--Display off Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-                Id="0x00001040" Enable="false" Timeout="0" Target="pineapple,cliffs"
+                Id="0x00001040" Enable="true" Timeout="0" Target="pineapple,cliffs"
                 Resources="0x40000000, 0x0" />
 
     <!-- Doze hint -->
@@ -1062,7 +1063,6 @@
         <!-- 60, 90fps: CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- GPU DISABLE resource opcode, value-->
         <!-- DISPLAY EARLY WAKEUP opcode, value-->
-        <!-- Don't need 0x42C20000, removed it-->
         <Config
                 Id="0x00001098" Type="0" Enable="true" Target="pineapple" Timeout="2000" Fps="60"
                 Resources="0x40800100, 700, 0x4281C000, 25, 0x41C0C000, 0" />
@@ -1095,7 +1095,6 @@
     <!-- PiCard Early Wakeup GPU only -->
         <!-- 60, 90fps: CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- GPU DISABLE resource opcode, value-->
-        <!-- Don't need 0x42C20000, removed it-->
         <Config
                 Id="0x00001099" Type="0" Enable="true" Target="pineapple" Timeout="2000" Fps="60"
                 Resources="0x40800100, 700, 0x4281C000, 25" />
@@ -1127,7 +1126,6 @@
     <!-- PiCard Early Wakeup Display only -->
         <!-- 60, 90fps: CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- DISPLAY EARLY WAKEUP opcode, value-->
-        <!-- Don't need 0x42C20000, removed it-->
         <Config
                 Id="0x0000109A" Type="0" Enable="true" Target="pineapple" Timeout="2000" Fps="60"
                 Resources="0x40800100, 700, 0x41C0C000, 0" />
@@ -1155,7 +1153,6 @@
         <!-- CPU min freq resource opcode, value -->
         <!-- GPU MIN_FREQUENCY resource opcode,value (not present for 30 - 90)-->
         <!-- PID Affine opcode,value -->
-        <!-- Don't need 0x42C20000, removed it-->
         <Config
                 Id="0x00001097" Type="0" Enable="true" Timeout="5000" Target="pineapple" Fps="30"
                 Resources="0x40800000, 500" />
@@ -1193,13 +1190,14 @@
 
     <!--HDR Content Hint -->
         <!-- CPU min freq resource opcode, value -->
+        <!-- PID Affine opcode,value -->
         <Config
                 Id="0x000010A8" Type="0" Enable="true" Timeout="5000" Target="pineapple" Fps="30, 60, 90"
-                Resources="0x40800000, 500" />
+                Resources="0x40800000, 500, 0x42C20000, 1" />
 
         <Config
                 Id="0x000010A8" Type="0" Enable="true" Timeout="5000" Target="pineapple" Fps="120, 144, 180, 240"
-                Resources="0x40800000, 1500" />
+                Resources="0x40800000, 1500, 0x42C20000, 1" />
 
         <!-- MIN_FREQ_CLUSTER_BIG resource opcode, value -->
         <!-- PID Affine opcode,value -->
@@ -1214,7 +1212,7 @@
         <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST, value-->
         <!-- Type 5 Light Scrolls : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="pineapple"
+            Id="0x00001080" Type="5" Enable="true" Target="pineapple"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0" />
 
         <!-- SCHEDBOOST resource opcode, value-->
@@ -1231,13 +1229,13 @@
         <!-- SCHED_UP_DOWN_MIGRATE PRIME resource opcode, value -->
         <!-- Type 5 Light Scrolls : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="pineapple" Fps="90"
+            Id="0x00001080" Type="5" Enable="true" Target="pineapple" Fps="90"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 998000, 0x4080C200, 998000, 0x4080C300, 998000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000,
                        0x41000200, 1"/>
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="pineapple" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="5" Enable="true" Target="pineapple" Fps="120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000, 0x4080C300, 1000000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000,
@@ -1255,7 +1253,7 @@
         <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_TITANIUM resource opcode, value -->
         <!-- Type 6 Medium Scrolls : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x00001080" Type="6" Enable="false" Target="pineapple"
+            Id="0x00001080" Type="6" Enable="true" Target="pineapple"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 998000, 0x4080C200, 998000, 0x4080C300, 998000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000" />
@@ -1274,14 +1272,14 @@
         <!-- SCHED_UP_DOWN_MIGRATE PRIME resource opcode, value -->
         <!-- Type 6 Medium Scrolls : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x00001080" Type="6" Enable="false" Target="pineapple" Fps="90"
+            Id="0x00001080" Type="6" Enable="true" Target="pineapple" Fps="90"
             Resources="
                        0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 998000, 0x4080C200, 998000, 0x4080C300, 998000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000,
                        0x41000200, 1" />
         <Config
-            Id="0x00001080" Type="6" Enable="false" Target="pineapple" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="6" Enable="true" Target="pineapple" Fps="120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000, 0x4080C300, 1000000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000,
@@ -1305,7 +1303,7 @@
 
         <!-- Type 7 Heavy Scrolls : Horizontal and Vertical 60 FPS -->
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="pineapple"
+            Id="0x00001080" Type="7" Enable="true" Target="pineapple"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000, 0x4080C300, 1000000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000,
@@ -1330,14 +1328,14 @@
         <!-- SCHED_UP_DOWN_MIGRATE PRIME resource opcode, value -->
         <!-- Type 7 Heavy Scrolls : Horizontal and Vertical 90+ FPS -->
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="pineapple" Fps="90"
+            Id="0x00001080" Type="7" Enable="true" Target="pineapple" Fps="90"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1000000, 0x4080C200, 1000000, 0x4080C300, 1000000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000,
                        0x41000200, 1, 0x4303C000, 0xA6428, 0x43458000, 0xD2F00, 0x40C74000,
                        0xFF, 0x40408000, 0x63, 0x40CE0200, 0x0023000A" />
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="pineapple" Fps="120, 144, 180, 240"
+            Id="0x00001080" Type="7" Enable="true" Target="pineapple" Fps="120, 144, 180, 240"
             Resources="0x40C00000, 0x2, 0x41000000, 3, 0x40C78000, 0, 0x40C7C000, 0,
                        0x4080C000, 1300000, 0x4080C200, 1300000, 0x4080C300, 1300000,
                        0x40808000, 600000, 0x40808200, 800000, 0x40808300, 600000,
@@ -1352,19 +1350,14 @@
         <!-- SCHED_MIN_TASK_UTIL_FOR_BOOST resource opcode, value-->
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="cliffs"
-            Resources="0x40C00000, 2, 0x40C78000, 0, 0x40C7C000, 0,
-            0x41848000, 0xE3C88" />
+            Id="0x00001080" Type="5" Enable="true" Target="cliffs"
+            Resources="0x40C00000, 2, 0x4080C000, 1056000, 0x40808000, 633000, 0x40C78000, 0,
+            0x40C7C000, 0, 0x41848000, 0xE3C88" />
 
         <Config
-            Id="0x00001080" Type="5" Enable="false" Target="cliffs" Fps="90"
-            Resources="0x40C00000, 2, 0x40800000, 1497, 0x40C78000, 0, 0x40C7C000, 0,
-            0x41848000, 0xE3C88" />
-
-        <Config
-            Id="0x00001080" Type="5" Enable="false" Target="cliffs" Fps="120, 144, 180"
-            Resources="0x40C00000, 2, 0x40800000, 1708, 0x40C78000, 0, 0x40C7C000, 0,
-            0x41848000, 0xE3C88" />
+            Id="0x00001080" Type="5" Enable="true" Target="cliffs" Fps="120, 144, 180, 240"
+            Resources="0x40C00000, 2, 0x4080C000, 1190000, 0x40808000, 787000, 0x40C78000, 0,
+            0x40C7C000, 0, 0x41848000, 0xE3C88" />
 
         <!-- Type 6 Medium Scrolls : Horizontal and Verical -->
         <!-- LLCC_DDR_BW_MIN_FREQ_V2 resource opcode, value-->
@@ -1380,20 +1373,14 @@
         <!-- CORE_CTL_ENABLE_BIG resource opcode, value-->
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <Config
-            Id="0x00001080" Type="6" Enable="false" Target="cliffs"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1056, 0x40C00000, 2,
+            Id="0x00001080" Type="6" Enable="true" Target="cliffs"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1497000, 0x40808000, 940000, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xC9900, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF8, 0x40408000, 0x27, 0x41008000, 0, 0x41848000, 0xE3C88" />
 
         <Config
-            Id="0x00001080" Type="6" Enable="false" Fps="90" Target="cliffs"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1593, 0x40C00000, 2,
-                       0x41000000, 3, 0x43480000, 0xC9900, 0x40C78000, 0, 0x40C7C000, 0,
-                       0x40C74000, 0xF8, 0x40408000, 0x27, 0x41008000, 0, 0x41848000, 0xE3C88" />
-
-        <Config
-            Id="0x00001080" Type="6" Enable="false" Fps="120, 144, 180" Target="cliffs"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1824, 0x40C00000, 2,
+            Id="0x00001080" Type="6" Enable="true" Target="cliffs" Fps="120, 144, 180, 240"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1593000, 0x40808000, 1056000, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xC9900, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF8, 0x40408000, 0x27, 0x41008000, 0, 0x41848000, 0xE3C88" />
 
@@ -1413,21 +1400,15 @@
         <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
         <!-- PID Affine opcode, value -->
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="cliffs"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1190, 0x40C00000, 2,
+            Id="0x00001080" Type="7" Enable="true" Target="cliffs"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1708000, 0x40808000, 1056000, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xC9900, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF8, 0x40408000, 0x27, 0x41008000, 0, 0x41008200, 0,
                        0x41848000, 0xE3C88" />
 
         <Config
-            Id="0x00001080" Type="7" Enable="false" Target="cliffs" Fps="90"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1593, 0x40C00000, 2,
-                       0x41000000, 3, 0x43480000, 0xAAE60, 0x40C78000, 0, 0x40C7C000, 0,
-                       0x40C74000, 0xF8, 0x40408000, 0x27, 0x41008000, 0, 0x41008200, 0,
-                       0x41848000, 0xE3C88" />
-        <Config
-            Id="0x00001080" Type="7" Enable="false" Target="cliffs" Fps="120, 144, 180"
-            Resources="0x4303C000, 0xA6428, 0x40800000, 1824, 0x40C00000, 2,
+            Id="0x00001080" Type="7" Enable="true" Target="cliffs" Fps="120, 144, 180, 240"
+            Resources="0x4303C000, 0xA6428, 0x4080C000, 1824000, 0x40808000, 787000, 0x40C00000, 2,
                        0x41000000, 3, 0x43480000, 0xAAE60, 0x40C78000, 0, 0x40C7C000, 0,
                        0x40C74000, 0xF8, 0x40408000, 0x27, 0x41008000, 0, 0x41008200, 0,
                        0x41848000, 0xE3C88, 0x42C20000, 1" />
