@@ -4,6 +4,8 @@
 # Current blobs with deps disabled:
 # libqvrservice depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
 
+# libqti-perfd - from Asteroids-B4.0-251021-1539
+
 # ACDBs
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd
@@ -795,7 +797,7 @@ vendor/lib64/libqapesdk.so
 vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-iopd.so
 vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-perfd.so|9830601bb884eea1a4ac011b535d5212c130aa65
 vendor/lib64/libqti-qesdk-secure.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
