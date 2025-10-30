@@ -34,6 +34,24 @@
       "parentUuid": "2c328a7b_f6b23da2",
       "revId": "47a8fdd601391202a10a037cba0fdaac7dcfe641",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ae0f3c4_94196b4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-30T16:11:19Z",
+      "side": 1,
+      "message": "Yea, but udfps overlay configs were moved to device trees. Might as well do the same here.",
+      "parentUuid": "e164ad65_bce268e6",
+      "revId": "47a8fdd601391202a10a037cba0fdaac7dcfe641",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
