@@ -16,6 +16,24 @@
       "message": "If I am not mistaken, caihong doesn\u0027t have a proximity sensor.",
       "revId": "47a8fdd601391202a10a037cba0fdaac7dcfe641",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e164ad65_bce268e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-10-30T15:45:27Z",
+      "side": 1,
+      "message": "caihong doesn\u0027t have proximity. although, the long press option itself isn\u0027t visible in caihong since it doesn\u0027t has udfps.",
+      "parentUuid": "2c328a7b_f6b23da2",
+      "revId": "47a8fdd601391202a10a037cba0fdaac7dcfe641",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
