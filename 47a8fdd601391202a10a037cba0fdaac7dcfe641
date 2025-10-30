@@ -52,6 +52,24 @@
       "parentUuid": "e164ad65_bce268e6",
       "revId": "47a8fdd601391202a10a037cba0fdaac7dcfe641",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf6150f2_87a3b1ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2025-10-30T17:14:11Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_oneplus_sm8650-common/blob/9fae9bec88525db2c748f9bf65c54490685049a3/overlay/OPlusFrameworksResCommon/res/values/config.xml#L78-L86\n\nThese?",
+      "parentUuid": "3ae0f3c4_94196b4f",
+      "revId": "47a8fdd601391202a10a037cba0fdaac7dcfe641",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
