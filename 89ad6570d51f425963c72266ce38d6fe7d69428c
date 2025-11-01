@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4802ffe3_23e0452b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-11-01T01:01:00Z",
+      "side": 1,
+      "message": "Just create patches, and fixup the files using extract-files.py. No need to import proprietary files to the device tree",
+      "revId": "89ad6570d51f425963c72266ce38d6fe7d69428c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
