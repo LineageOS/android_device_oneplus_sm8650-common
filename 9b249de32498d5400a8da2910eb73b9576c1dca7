@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61a8cb40_a566a1ed",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-01T10:45:26Z",
+      "side": 1,
+      "message": "More like \"omapi\"",
+      "range": {
+        "startLine": 344,
+        "startChar": 26,
+        "endLine": 344,
+        "endChar": 29
+      },
+      "revId": "9b249de32498d5400a8da2910eb73b9576c1dca7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
