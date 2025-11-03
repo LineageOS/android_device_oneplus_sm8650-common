@@ -287,6 +287,7 @@ endif
 
 # OPlus dummy services
 PRODUCT_PACKAGES += \
+    liboplus-uah-client \
     vendor.oplus.hardware.commondcs-service \
     vendor.oplus.hardware.osense.client-service \
     vendor.oplus.hardware.performance-service
