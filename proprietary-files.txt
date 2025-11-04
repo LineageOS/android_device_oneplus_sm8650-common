@@ -693,11 +693,6 @@ odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/etc/charge.cfg
 odm/lib64/libGaiaClient_vnd.so
 
-# OPLUS Performance
-odm/etc/uah/uahconfig.pb
-odm/lib64/liboplus-uah-client.so
-odm/lib64/libuahcore.so
-
 # OPLUS Project
 odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
 odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
