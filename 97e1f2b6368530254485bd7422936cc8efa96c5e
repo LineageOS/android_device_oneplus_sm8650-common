@@ -16,6 +16,24 @@
       "message": "Unnecessary.\n\nSee: https://github.com/TheMuppets/proprietary_vendor_oneplus_sm8650-common/blob/lineage-23.0/Android.bp#L28267",
       "revId": "97e1f2b6368530254485bd7422936cc8efa96c5e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7330a322_91e93a26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-11-05T04:47:52Z",
+      "side": 1,
+      "message": "Acknowledged.",
+      "parentUuid": "3b756fc2_bb77b97c",
+      "revId": "97e1f2b6368530254485bd7422936cc8efa96c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
