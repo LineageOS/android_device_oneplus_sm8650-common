@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46cb4bc0_bfb6495b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-11-05T07:28:08Z",
+      "side": 1,
+      "message": "Depends on: https://review.lineageos.org/c/LineageOS/android_hardware_oplus/+/459207",
+      "revId": "a0de09c41a83452f0c09b1b179dba7be5accf71f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
