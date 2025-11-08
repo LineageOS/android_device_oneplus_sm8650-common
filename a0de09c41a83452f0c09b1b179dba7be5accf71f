@@ -16,6 +16,23 @@
       "message": "Depends on: https://review.lineageos.org/c/LineageOS/android_hardware_oplus/+/459207",
       "revId": "a0de09c41a83452f0c09b1b179dba7be5accf71f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3366d6fa_90e1e822",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-11-08T06:29:43Z",
+      "side": 1,
+      "message": "Didn\u0027t get any issues on avalon",
+      "revId": "a0de09c41a83452f0c09b1b179dba7be5accf71f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
