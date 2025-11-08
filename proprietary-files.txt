@@ -509,14 +509,12 @@ vendor/lib64/vendor.qti.hardware.hexlp-V1-ndk.so
 # Horae
 odm/etc/horae/horae_target.conf
 system/lib64/libostatslog.so:system_ext/lib64/libostatslog.so
-system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so:system_ext/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
 system_ext/bin/horae
 system_ext/etc/horae/horae.conf
 system_ext/etc/horae/horae_SM7675.conf
 system_ext/etc/horae/horae_SM8650.conf
 system_ext/etc/horae/horae_SM8650_CAIHONG.conf
 system_ext/etc/init/horae.rc
-system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
 
 # Hotword Enrollment
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
