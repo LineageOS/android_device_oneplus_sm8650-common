@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20f67b37_8491d97d",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-10T07:53:18Z",
+      "side": 0,
+      "message": "Where is this property set? I can\u0027t find it in init.qti.display_boot.sh",
+      "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
