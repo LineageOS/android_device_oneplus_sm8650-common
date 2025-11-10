@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7e98653_ec842b29",
+        "filename": "configs/perf/perfconfigstore.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-10T10:06:06Z",
+      "side": 0,
+      "message": "Add back. It is a Qualcomm changes they work fine on SM8650 and found same in sm8750",
+      "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bdb939ea_f4b2eda1",
+        "filename": "configs/perf/perfconfigstore.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-10T10:06:06Z",
+      "side": 0,
+      "message": "Add back. It is a Qualcomm changes they work fine on SM8650 and found same in sm8750",
+      "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "504c4cd5_6e92f39d",
+        "filename": "configs/perf/perfconfigstore.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-10T10:06:06Z",
+      "side": 0,
+      "message": "enable",
+      "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
