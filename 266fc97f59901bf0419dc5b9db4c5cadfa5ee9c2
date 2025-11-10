@@ -52,6 +52,24 @@
       "parentUuid": "e8e7bdc9_6734f877",
       "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7bf3be2_31e55572",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-11-10T08:05:19Z",
+      "side": 0,
+      "message": "Yah it wasn\u0027t making sense to set both enable and disable so I preferred qcom one.",
+      "parentUuid": "f5a71eaa_cc2d91bd",
+      "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
