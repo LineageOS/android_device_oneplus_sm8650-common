@@ -70,6 +70,24 @@
       "parentUuid": "f5a71eaa_cc2d91bd",
       "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ad3d028_e9875af3",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-10T08:09:54Z",
+      "side": 0,
+      "message": "`vendor.display.disable_spec_fence property` isn\u0027t doing anything. Oplus sets it in odm, but no libraries reference it—so it\u0027s safe to drop.",
+      "parentUuid": "a7bf3be2_31e55572",
+      "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
