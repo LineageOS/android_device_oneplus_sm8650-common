@@ -16,6 +16,24 @@
       "message": "Where is this property set? I can\u0027t find it in init.qti.display_boot.sh",
       "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8e7bdc9_6734f877",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-11-10T07:58:22Z",
+      "side": 0,
+      "message": "It\u0027s set to enable: \n\nhttps://github.com/LineageOS/android_hardware_qcom_display/blob/236c0e843a30a65de1d123f2da83026caf3ff29c/init/init.qti.display_boot.sh#L57",
+      "parentUuid": "20f67b37_8491d97d",
+      "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
