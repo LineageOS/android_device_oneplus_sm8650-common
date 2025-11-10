@@ -34,6 +34,24 @@
       "parentUuid": "20f67b37_8491d97d",
       "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5a71eaa_cc2d91bd",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-10T08:01:20Z",
+      "side": 0,
+      "message": "The property is vendor.display.enable_spec_fence, but in our device tree, the property name is vendor.display.disable_spec_fence",
+      "parentUuid": "e8e7bdc9_6734f877",
+      "revId": "266fc97f59901bf0419dc5b9db4c5cadfa5ee9c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
