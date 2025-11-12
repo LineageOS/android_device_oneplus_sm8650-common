@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f6d75b02_a4238f5f",
+        "filename": "configs/perf/perfconfigstore.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-11-12T15:51:09Z",
+      "side": 0,
+      "message": "$ grep -r ro.vendor.qti.set_wlc_affinity\nvendor/etc/perf/perfconfigstore.xml:                \u003cProp Name\u003d\"ro.vendor.qti.set_wlc_affinity\" Value\u003d\"true\" Target\u003d\"pineapple,cliffs\" /\u003e\ngrep: system_ext/app/workloadclassifier/workloadclassifier.apk: binary file matches",
+      "parentUuid": "c7e98653_ec842b29",
+      "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bdb939ea_f4b2eda1",
         "filename": "configs/perf/perfconfigstore.xml",
         "patchSetId": 4
