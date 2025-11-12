@@ -71,6 +71,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c189e33e_e2fdf162",
+        "filename": "configs/perf/perfconfigstore.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2025-11-12T17:59:43Z",
+      "side": 0,
+      "message": "Removed. No such prop in AOSP, seems like oplus change.",
+      "parentUuid": "8570e009_f04a0971",
+      "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "504c4cd5_6e92f39d",
