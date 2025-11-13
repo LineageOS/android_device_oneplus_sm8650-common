@@ -39,8 +39,9 @@
             <instance>slot2</instance>
         </interface>
     </hal>
-     <hal format="aidl">
+    <hal format="aidl">
         <name>android.hardware.radio.sap</name>
+        <version>1</version>
         <interface>
             <name>ISap</name>
             <instance>slot1</instance>
