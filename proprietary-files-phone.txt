@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2581_15.0.0.863(EX01)).
+## are from OnePlus 12 (CPH2581_16.0.0.201(EX01)).
 
 # Context Hub
 odm/etc/init/android.hardware.contexthub-service.qmi.rc
@@ -106,10 +106,9 @@ vendor/lib64/vendor.qti.gnss-service.so
 
 # IMS
 system_ext/app/ImsDataChannelService/ImsDataChannelService.apk
-system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/etc/permissions/rsmcService.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
+system_ext/etc/permissions/vendor.qti.imsdatachannel.xml
 system_ext/etc/permissions/vendor.qti.imsdcservice.xml
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
@@ -119,6 +118,7 @@ system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar
 system_ext/framework/vendor.qti.ims.datachannelservice-V1-java.jar
 system_ext/framework/vendor.qti.ims.datachannelservice-V2-java.jar
+system_ext/framework/vendor.qti.ims.datachannelservice-V3-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar
@@ -141,8 +141,10 @@ system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
+system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so
 system_ext/lib64/vendor.qti.ims.datachannelservice-V1-ndk.so
 system_ext/lib64/vendor.qti.ims.datachannelservice-V2-ndk.so
+system_ext/lib64/vendor.qti.ims.datachannelservice-V3-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/ims/ims.apk
@@ -231,11 +233,12 @@ odm/lib64/libradioapis.so
 odm/lib64/librfapis.so
 odm/lib64/libsubsys-service.so
 odm/lib64/libsubsys-utils.so
+odm/lib64/libvasapi.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
 odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.communicationcenter-V2-ndk.so
-odm/lib64/vendor.oplus.hardware.subsys-V3-ndk.so
-odm/lib64/vendor.oplus.hardware.subsys_radio-V4-ndk.so
+odm/lib64/vendor.oplus.hardware.subsys-V5-ndk.so
+odm/lib64/vendor.oplus.hardware.subsys_radio-V8-ndk.so
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_libpermissions.xml
@@ -287,6 +290,7 @@ vendor/etc/O_STX_platform_license.pfm
 vendor/etc/O_TDD-Bypass_platform_license.pfm
 vendor/etc/SDA_platform_license.pfm
 vendor/etc/SNS_platform_license.pfm
+vendor/etc/SNS_trial_no_secure_license_for_SM8635.pfm
 vendor/etc/telephony_packages.xml
 vendor/lib64/deviceInfoServiceModuleNr.so
 vendor/lib64/libQtiRilLoadable.so
@@ -409,7 +413,8 @@ vendor/etc/init/vendor.qti.rmt_storage.rc
 # Secure element
 odm/bin/hw/android.hardware.secure_element-service.qti
 odm/etc/init/android.hardware.secure_element-service.qti.rc
-odm/etc/vintf/manifest/secure_element_omapi_service.xml:vendor/etc/vintf/manifest/secure_element-service-omapi.xml
+odm/etc/vintf/manifest/secure_element_omapi_service.xml
+odm/lib64/libsecurity_event_olc_vnd.so
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 vendor/lib64/hw/libEseUtils.so
 vendor/lib64/libGPQeSE.so
