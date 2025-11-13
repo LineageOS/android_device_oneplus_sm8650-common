@@ -337,6 +337,7 @@ PRODUCT_PACKAGES += \
 
 # QSPA
 PRODUCT_PACKAGES += \
+    qspa_vendor.rc \
     vendor.qti.qspa-service
 
 # SecureElement
