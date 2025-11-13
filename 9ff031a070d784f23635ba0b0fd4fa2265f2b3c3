@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "75b27bab_08010865",
+        "filename": "configs/perf/perfconfigstore.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-13T05:02:17Z",
+      "side": 0,
+      "message": "Acknowledged",
+      "parentUuid": "f6d75b02_a4238f5f",
+      "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bdb939ea_f4b2eda1",
@@ -120,6 +138,24 @@
       "side": 0,
       "message": "Qcom disabled it for pineapple (that\u0027s why doesn\u0027t use pineapple,cliffs). Anyways the prop isn\u0027t used by any included vendor blob.",
       "parentUuid": "504c4cd5_6e92f39d",
+      "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5155745d_618f0f1e",
+        "filename": "configs/perf/perfconfigstore.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-13T05:02:17Z",
+      "side": 0,
+      "message": "Acknowledged",
+      "parentUuid": "f5850d04_68ebe3c5",
       "revId": "9ff031a070d784f23635ba0b0fd4fa2265f2b3c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
