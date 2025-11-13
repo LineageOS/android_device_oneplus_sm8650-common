@@ -33,6 +33,24 @@
       "message": "Didn\u0027t get any issues on avalon",
       "revId": "a0de09c41a83452f0c09b1b179dba7be5accf71f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54e25026_a20f04e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-13T08:46:54Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "46cb4bc0_bfb6495b",
+      "revId": "a0de09c41a83452f0c09b1b179dba7be5accf71f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
