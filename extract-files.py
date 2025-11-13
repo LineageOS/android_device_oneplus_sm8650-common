@@ -57,6 +57,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libshims_aidl_fingerprint_v3.oplus.so'),
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
         .regex_replace('/my_product', '/product'),
+    'vendor/bin/init.kernel.post_boot-memory.sh': blob_fixup()
+        .regex_replace('# echo always', 'echo always'),
     'vendor/bin/system_dlkm_modprobe.sh': blob_fixup()
         .regex_replace(r'.*\bzram or zsmalloc\b.*\n', '')
         .regex_replace(r'-e "zram" -e "zsmalloc"', ''),
