@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40d5322b_3e8755ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-13T04:58:18Z",
+      "side": 1,
+      "message": "This values found in Lanai.LA.1.0.r1-00865-STD.PROD-3.",
+      "revId": "ab2778c46ceb85eac2fe8698f76b25b27fa9d6fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a5d0480_d5fd0473",
+        "filename": "configs/perf/perfboostsconfig.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 1192,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-13T04:58:18Z",
+      "side": 1,
+      "message": "```suggestion\n        \u003c!-- CPU min freq resource opcode, value --\u003e\n        \u003c!-- PID Affine opcode,value --\u003e\n```",
+      "revId": "ab2778c46ceb85eac2fe8698f76b25b27fa9d6fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0cc71964_c84cbe6f",
+        "filename": "configs/perf/perfboostsconfig.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 1195,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-13T04:58:18Z",
+      "side": 1,
+      "message": "```suggestion\n                Resources\u003d\"0x40800000, 500, 0x42C20000, 1\" /\u003e\n```",
+      "revId": "ab2778c46ceb85eac2fe8698f76b25b27fa9d6fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62bd15b1_7bce0a9c",
+        "filename": "configs/perf/perfboostsconfig.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 1199,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-13T04:58:18Z",
+      "side": 1,
+      "message": "```suggestion\n                Resources\u003d\"0x40800000, 1500, 0x42C20000, 1\" /\u003e\n```",
+      "revId": "ab2778c46ceb85eac2fe8698f76b25b27fa9d6fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
