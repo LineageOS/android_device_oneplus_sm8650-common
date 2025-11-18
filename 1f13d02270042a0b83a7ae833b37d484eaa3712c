@@ -16,6 +16,24 @@
       "message": "Check if you have these as well:\n\nsystem_ext/etc/permissions/vendor.qti.imsdatachannel.xml\nsystem_ext/framework/vendor.qti.imsdatachannel.jar",
       "revId": "1f13d02270042a0b83a7ae833b37d484eaa3712c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "902c13db_50d9c93e",
+        "filename": "proprietary-files-phone.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-18T10:46:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "879ef83b_e5b9b385",
+      "revId": "1f13d02270042a0b83a7ae833b37d484eaa3712c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
