@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "319e6dbf_22a0a57b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2025-11-21T06:37:43Z",
+      "side": 1,
+      "message": "system_ext/etc/horae/horae_SM8635.conf\nis missing",
+      "revId": "a64dae490a4f240effd8dd011edb88be4ad9b995",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
