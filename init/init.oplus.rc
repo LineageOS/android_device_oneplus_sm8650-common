@@ -67,3 +67,32 @@ on property:sys.boot_completed=1
     copy /vendor/etc/oplus_Widevine_licenses.pfm /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
     chown system system /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
+
+service oplus-sh /odm/bin/init.oplus.sh
+    class late_start
+    user root
+    group root system
+    oneshot
+
+on property:sys.boot_completed=1
+    start oplus-sh
+
+on property:sys.ipa_thermal_number=*
+    chown root system /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/k_d
+    chown root system /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/k_i
+    chown root system /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/k_po
+    chown root system /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/k_pu
+    chown root system /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/sustainable_power
+    chmod 0664 /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/sustainable_power
+    chmod 0664 /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/mode
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/k_d
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/k_i
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/k_po
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/k_pu
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/sustainable_power
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/use_power_budget
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/use_thermalcontrol_limit
+    chmod 0664 /sys/devices/platform/soc/soc:ipa/clt_state_limit
+    write /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/policy user_space
+    write /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/sustainable_power 9999
+    write /sys/class/thermal/thermal_zone${sys.ipa_thermal_number}/mode enabled

@@ -220,6 +220,7 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-pineapple.sh \
     init.kernel.post_boot-pineapple_default_2_3_2_1.sh \
     init.oplus.rc \
+    init.oplus.sh \
     init.kernel.post_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.early_boot.sh \
