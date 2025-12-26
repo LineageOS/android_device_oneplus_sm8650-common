@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "920e9404_c0487f54",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-26T10:40:33Z",
+      "side": 0,
+      "message": "You should only remove this from common tree and not revert the entire commit.",
+      "range": {
+        "startLine": 246,
+        "startChar": 0,
+        "endLine": 251,
+        "endChar": 0
+      },
+      "revId": "f21600f72cb4b7b2710669cce0c2aeddd5ea43e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
