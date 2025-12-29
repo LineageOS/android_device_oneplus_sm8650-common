@@ -594,7 +594,8 @@ vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 
-# Power-off alarm
+# Power-off alarm - from WWAI2501-36.0810.1810.43-0
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|bfaed719b16c561c00549ad46b8e1d24e66f124f
 vendor/bin/hw/vendor.qti.hardware.alarm-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm-service.rc
