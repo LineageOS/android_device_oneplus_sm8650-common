@@ -133,7 +133,8 @@ PRODUCT_COPY_FILES += \
 # Doze
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
-    OplusDoze
+    OplusDoze \
+    OplusDozeResCommon
 endif
 
 # DRM
