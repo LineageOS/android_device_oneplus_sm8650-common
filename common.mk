@@ -303,7 +303,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    FrameworksResTarget \
+    FrameworksResCommon \
     NcmTetheringOverlay \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
@@ -312,6 +312,7 @@ PRODUCT_PACKAGES += \
 
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
+    FrameworksResPhone \
     CarrierConfigResCommon
 endif
 
