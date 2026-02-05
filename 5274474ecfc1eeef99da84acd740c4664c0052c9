@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88b1021e_d856327d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-02-05T13:20:00Z",
+      "side": 1,
+      "message": "can\u0027t do FrameworksResCommon since \n\nerror: hardware/oplus/overlay/qssi/FrameworksResCommon/Android.bp:6:1: module \"FrameworksResCommon\" variant \"android_common\": found in multiple namespaces(device/oneplus/sm8650-common and hardware/oplus/overlay/qssi) when including in vendor partition",
+      "revId": "5274474ecfc1eeef99da84acd740c4664c0052c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
