@@ -16,6 +16,24 @@
       "message": "If ```config_dozeAlwaysOnDisplayAvailable``` this already set to false in device overlay, why is the AOD part of this change needed?\nRef: https://github.com/LineageOS/android_device_oneplus_caihong/blob/13d4d52999f6f1881898507940bb78d0e24d67e2/overlay/OPlusFrameworksResTarget/res/values/config.xml#L276",
       "revId": "6e2df908d67f33afa6d5cc44c59f9372c22ab246",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28da240d_ef1c9405",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-02-07T11:12:34Z",
+      "side": 1,
+      "message": "See 23.2 branch, its not there. Beautify_rro keeps nuking it if set false from device side because that\u0027s what the default value is.",
+      "parentUuid": "3cbcc717_9f260cd4",
+      "revId": "6e2df908d67f33afa6d5cc44c59f9372c22ab246",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
