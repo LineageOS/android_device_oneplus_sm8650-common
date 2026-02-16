@@ -76,6 +76,14 @@ on init
     chown system system /dev/cpuctl/general
     chown system system /dev/cpuctl/general/tasks
     chmod 0644 /dev/cpuctl/general/tasks
+    # Audio
+    mkdir /dev/cpuset/audio-app
+    copy /dev/cpuset/cpus /dev/cpuset/audio-app/cpus
+    copy /dev/cpuset/mems /dev/cpuset/audio-app/mems
+    mkdir /dev/stune/audio-app
+    chown system system /dev/stune/audio-app
+    chown system system /dev/stune/audio-app/tasks
+    chmod 0664 /dev/stune/audio-app/tasks
 
 on early-init && property:ro.baseband=apq
     setprop ro.radio.noril yes
@@ -109,7 +117,7 @@ on early-boot
     verity_update_state
 
 on boot
-    write /dev/cpuset/audio-app/cpus 0-1
+    write /dev/cpuset/audio-app/cpus 0-7
     # Add a cpuset for the camera daemon
     # We want all cores for camera
     mkdir /dev/cpuset/camera-daemon
