@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d95a8c2c_a29265b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-03-09T14:38:04Z",
+      "side": 1,
+      "message": "Why did you remove the \"reason for revert\" comment?",
+      "revId": "8f1bbb688364e7fb96b89f96c04f03d37ee7d522",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
