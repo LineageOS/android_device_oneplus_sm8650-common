@@ -185,6 +185,7 @@ odm/lib64/libsecurity_event_dcs_vnd.so
 
 # GNSS
 odm/etc/apdr.conf
+odm/etc/gps.conf
 odm/etc/izat.conf
 odm/etc/sap.conf
 vendor/bin/hw/android.hardware.gnss-aidl-service-qti
