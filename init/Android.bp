@@ -21,13 +21,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-   name: "init.qti.kernel.rc",
-   src: "init.qti.kernel.rc",
-   sub_dir: "init/hw",
-   vendor: true,
-}
- 
-prebuilt_etc {
     name: "init.oplus.rc",
     src: "init.oplus.rc",
     sub_dir: "init",
@@ -46,6 +39,13 @@ prebuilt_etc {
     src: "init.qcom.recovery.rc",
     sub_dir: "init",
     recovery: true,
+}
+
+prebuilt_etc {
+    name: "init.qti.kernel.rc",
+    src: "init.qti.kernel.rc",
+    sub_dir: "init/hw",
+    vendor: true,
 }
 
 prebuilt_etc {
@@ -76,6 +76,12 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.kernel.post_boot.sh",
+    src: "init.kernel.post_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "init.kernel.post_boot-cliffs_default_3_4_1.sh",
     src: "init.kernel.post_boot-cliffs_default_3_4_1.sh",
     vendor: true,
@@ -94,20 +100,14 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.kernel.post_boot.sh",
-    src: "init.kernel.post_boot.sh",
+    name: "init.qcom.early_boot.sh",
+    src: "init.qcom.early_boot.sh",
     vendor: true,
 }
 
 sh_binary {
     name: "init.qcom.post_boot.sh",
     src: "init.qcom.post_boot.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.early_boot.sh",
-    src: "init.qcom.early_boot.sh",
     vendor: true,
 }
 
