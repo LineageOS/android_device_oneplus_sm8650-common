@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eab64793_f3ed4aad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2026-04-27T13:53:01Z",
+      "side": 1,
+      "message": "Vulkan is enabled by default on motorola pineapple devices. Didn\u0027t check on oneplus, but I think it is so too.",
+      "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
