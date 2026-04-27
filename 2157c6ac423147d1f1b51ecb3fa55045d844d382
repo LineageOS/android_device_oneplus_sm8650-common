@@ -34,6 +34,24 @@
       "parentUuid": "eab64793_f3ed4aad",
       "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "318242be_040d3cb0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2026-04-27T13:58:39Z",
+      "side": 1,
+      "message": "Uhm, I thought it was enabled on QCOM side.\nI think that you still can try to test it on your devices.",
+      "parentUuid": "e9a60195_760a546e",
+      "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
