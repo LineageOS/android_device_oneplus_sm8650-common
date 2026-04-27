@@ -16,6 +16,24 @@
       "message": "Vulkan is enabled by default on motorola pineapple devices. Didn\u0027t check on oneplus, but I think it is so too.",
       "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9a60195_760a546e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-04-27T13:56:12Z",
+      "side": 1,
+      "message": "OnePlus do not have Vulkan enabled on pineapple.",
+      "parentUuid": "eab64793_f3ed4aad",
+      "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
