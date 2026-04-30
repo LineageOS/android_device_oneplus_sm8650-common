@@ -69,6 +69,24 @@
       "message": "Working fine on my waffle. Please verify on another device.",
       "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84f5987a_6d99a9f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2026-04-30T09:50:08Z",
+      "side": 1,
+      "message": "Are videos in TikTok/Instagram/Likee okay? On my old devices which were not shipping vulkan out of the box I had artifacts",
+      "parentUuid": "60e0b62b_4175525b",
+      "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
