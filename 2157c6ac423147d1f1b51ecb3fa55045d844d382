@@ -121,6 +121,24 @@
       "message": "Vulkan works well on bale",
       "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2fe41b9_291a6ab0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36633
+      },
+      "writtenOn": "2026-05-08T10:31:24Z",
+      "side": 1,
+      "message": "Forgot to click resolve",
+      "parentUuid": "f1a8969b_59cb1feb",
+      "revId": "2157c6ac423147d1f1b51ecb3fa55045d844d382",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
