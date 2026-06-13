@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e98340fd_d7a72399",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-06-13T16:09:54Z",
+      "side": 1,
+      "message": "Please try with this hw/oplus chain: https://review.lineageos.org/489818",
+      "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
