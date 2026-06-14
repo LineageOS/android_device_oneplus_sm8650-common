@@ -33,6 +33,23 @@
       "message": "Works fine on waffle",
       "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56fa4db8_5fe949ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2026-06-14T10:17:40Z",
+      "side": 1,
+      "message": "fine on avalon",
+      "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
