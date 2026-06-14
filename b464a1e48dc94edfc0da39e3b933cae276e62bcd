@@ -16,6 +16,23 @@
       "message": "Please try with this hw/oplus chain: https://review.lineageos.org/489818",
       "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0bdc27c_f123d41d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-06-14T07:39:52Z",
+      "side": 1,
+      "message": "Works fine on waffle",
+      "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
