@@ -50,6 +50,23 @@
       "message": "fine on avalon",
       "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "830380a1_d8b423de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-06-14T11:44:12Z",
+      "side": 1,
+      "message": "caihong doesn\u0027t include these blobs anyway (hence the proprietary-files-phone)",
+      "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
