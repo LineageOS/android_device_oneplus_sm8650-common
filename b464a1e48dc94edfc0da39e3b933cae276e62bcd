@@ -84,6 +84,23 @@
       "message": "Works fine on bale too",
       "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd1e88c4_18df3881",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-06-20T17:23:05Z",
+      "side": 1,
+      "message": "Can you regen vendor and merge? I have merged hw/oplus chain already.",
+      "revId": "b464a1e48dc94edfc0da39e3b933cae276e62bcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
