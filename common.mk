@@ -233,8 +233,6 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Kernel
-PRODUCT_ENABLE_UFFD_GC := true
-
 PRODUCT_COPY_FILES += \
     kernel/oneplus/sm8650/modules.systemdlkm_blocklist.msm.pineapple:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/system_dlkm.modules.blocklist
 
