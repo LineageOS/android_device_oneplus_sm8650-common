@@ -17,7 +17,14 @@ prebuilt_etc {
     name: "fstab.qcom",
     src: "fstab.qcom",
     vendor: true,
-    vendor_ramdisk_available: true,
+}
+
+prebuilt_first_stage_ramdisk {
+    name: "fstab.qcom.first_stage_ramdisk",
+    src: "fstab.qcom",
+    filename: "fstab.qcom",
+    vendor_ramdisk: true,
+    install_in_root: true,
 }
 
 prebuilt_etc {
