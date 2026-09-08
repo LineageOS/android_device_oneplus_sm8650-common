@@ -43,10 +43,12 @@ persist.sys.horae.enable=1
 
 # IMS
 persist.dbg.volte_avail_ovr=1
+persist.dbg.vonr_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 persist.vendor.ims.rtp.enableqxdm=15
 persist.vendor.ims.vt.enableadb=3
+persist.vendor.radio.vonr_enabled=1
 
 # Media
 media.aac_51_output_enabled=true
