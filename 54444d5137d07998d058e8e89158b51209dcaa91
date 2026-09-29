@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb44d953_16a1d1f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 38131
+      },
+      "writtenOn": "2026-09-29T05:29:26Z",
+      "side": 1,
+      "message": "The original properties can be found here:\nhttps://dumps.tadiphone.dev/dumps/oneplus/op5cfbl1/-/blob/qssi-user-15-AP3A.240617.008-1728499445847-release-keys--ALLNET/product/etc/build.prop#L32\n\nThey can also be cross-checked here:\nhttps://github.com/LineageOS/android_device_oneplus_sm8850-common/blob/d4de3ab15421d3117265bb135e9770f749105c86/properties/product.prop#L17\n\nLGTM?",
+      "revId": "54444d5137d07998d058e8e89158b51209dcaa91",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
