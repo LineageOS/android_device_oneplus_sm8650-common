@@ -146,7 +146,6 @@ vendor/etc/ASR_binary/Whisper/speech_float.eai
 
 # Audio FX modules
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libquasar.so
 vendor/lib64/soundfx/libshoebox.so
 
 # Bluetooth
