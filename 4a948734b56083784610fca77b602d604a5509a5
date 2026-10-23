@@ -16,6 +16,23 @@
       "message": "Move this and the change below it to 24.0",
       "revId": "4a948734b56083784610fca77b602d604a5509a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d1aa671_d65a2402",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2026-10-23T07:26:12Z",
+      "side": 1,
+      "message": "Squash with Ia58ceff2061bda134e9bcf63c35bfbe4d4178e7a ?",
+      "revId": "4a948734b56083784610fca77b602d604a5509a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
