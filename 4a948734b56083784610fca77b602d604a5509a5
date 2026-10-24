@@ -33,6 +33,24 @@
       "message": "Squash with Ia58ceff2061bda134e9bcf63c35bfbe4d4178e7a ?",
       "revId": "4a948734b56083784610fca77b602d604a5509a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b69a20a_790b942a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-24T12:10:39Z",
+      "side": 1,
+      "message": "devices do it in 2 commits.",
+      "parentUuid": "1d1aa671_d65a2402",
+      "revId": "4a948734b56083784610fca77b602d604a5509a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
