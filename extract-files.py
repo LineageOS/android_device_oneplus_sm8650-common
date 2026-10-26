@@ -36,8 +36,15 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
 
+def lib_fixup_compat_suffix(lib: str, *args, **kwargs):
+    return f'{lib}_compat'
+
+
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
+    (
+        'vendor.oplus.hardware.subsys_radio-V1-ndk',
+    ): lib_fixup_compat_suffix,
     (
         'com.qualcomm.qti.dpm.api@1.0',
         'libosensenativeproxy_client',
