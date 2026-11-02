@@ -358,9 +358,6 @@ vendor/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.imsrtpservice@3.1.so;MODULE_SUFFIX=_vendor
 
-# MMI
-vendor/lib64/vendor.qti.hardware.factory-V1-ndk.so
-
 # QMS
 vendor/bin/qms
 vendor/etc/init/qms.rc
