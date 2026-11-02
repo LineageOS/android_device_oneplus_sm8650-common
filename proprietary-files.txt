@@ -14,7 +14,6 @@ vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd
 
 # ADSP
 vendor/bin/adsprpcd
-vendor/bin/audioadsprpcd;REQUIRED=vendor.qti.audio-adsprpc-service.rc
 vendor/bin/loadalgo
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/lib64/libadsp_default_listener.so
@@ -35,15 +34,11 @@ vendor/lib/rfsa/adsp/nearby.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
-vendor/lib64/hw/audio.primary.pineapple.so
 vendor/lib64/libadm.so
-vendor/lib64/libagm.so
-vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudiofeaturestats.so
 vendor/lib64/libdsd2pcm.so
 vendor/lib64/libmcs.so
 vendor/lib64/libqtigefar.so
-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Audio (ASR)
@@ -71,7 +66,6 @@ vendor/lib64/libtensorflowlite_c.so:vendor/lib64/libtensorflowlite_c_vendor.so;F
 # Audio (PAL)
 vendor/etc/mem_logger_config.xml
 vendor/lib64/libPeripheralStateUtils.so
-vendor/lib64/libar-pal.so
 vendor/lib64/libarmemlog.so
 
 # Audio effects
