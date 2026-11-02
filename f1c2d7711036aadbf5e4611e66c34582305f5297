@@ -16,6 +16,24 @@
       "message": "Are these really valid props?",
       "revId": "f1c2d7711036aadbf5e4611e66c34582305f5297",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a29e064_c6889c31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-11-02T13:52:05Z",
+      "side": 1,
+      "message": "you are right oneplus dont set these.",
+      "parentUuid": "4c02d04c_bd8e125c",
+      "revId": "f1c2d7711036aadbf5e4611e66c34582305f5297",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
