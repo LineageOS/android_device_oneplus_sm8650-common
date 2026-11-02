@@ -62,7 +62,6 @@ blob_fixups: blob_fixups_user_type = {
         'odm/bin/hw/vendor-oplus-hardware-touch-V2-service',
         'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff',
         'odm/bin/touchDaemon',
-        'vendor/bin/qvrdatauploader',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'odm/etc/gps.conf': blob_fixup()
@@ -114,6 +113,11 @@ blob_fixups: blob_fixups_user_type = {
             r'(service\s+vendor\.dpmd\s+/vendor/bin/vendor\.dpmd\s*\n)',
             r'\1    user root\n'
         ),
+    'vendor/etc/media_pineapple/video_system_specs.json': blob_fixup()
+        .regex_replace(r'.*OPLUS_BUG_COMPATIBILITY\n.*\n.*"libqc2vppfilter\.so",\n.*OPLUS_BUG_COMPATIBILITY.*\n', '')
+        .regex_replace(r'.*"QC2PostProcessingFilters"[\s\S]*?\},\n\n', ''),
+    'vendor/etc/public.libraries.txt': blob_fixup()
+        .regex_replace(r'lib(QEGA\.qti|aiboost|aiboost_llm)\.so\n', ''),
     'vendor/etc/pwr/PowerFeatureConfig.xml': blob_fixup()
         .regex_replace(r'(<Name>GamePowerOptFeature</Name>\s*<Enable>)0(<\/Enable>)', r'\g<1>1\g<2>'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
