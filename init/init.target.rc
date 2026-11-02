@@ -215,3 +215,10 @@ service fan_control_turn_off /vendor/bin/fan_service 0
     user root
     disabled
     oneshot
+
+service vendor.audioadsprpcd_audiopd /vendor/bin/audioadsprpcd audiopd
+    override
+    class main
+    user media
+    group media
+    setenv DSP_LIBRARY_PATH /odm/lib/rfsa/adsp
