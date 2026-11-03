@@ -125,8 +125,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'.*"QC2PostProcessingFilters"[\s\S]*?\},\n\n', ''),
     'vendor/etc/public.libraries.txt': blob_fixup()
         .regex_replace(r'lib(QEGA\.qti|aiboost|aiboost_llm)\.so\n', ''),
-    'vendor/etc/pwr/PowerFeatureConfig.xml': blob_fixup()
-        .regex_replace(r'(<Name>GamePowerOptFeature</Name>\s*<Enable>)0(<\/Enable>)', r'\g<1>1\g<2>'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .add_line_if_missing('sensors.oplus.so'),
     'vendor/lib64/libqcodec2_core.so': blob_fixup()
