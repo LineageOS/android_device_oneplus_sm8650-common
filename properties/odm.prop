@@ -12,6 +12,8 @@ persist.vendor.bluetooth.modem_nv_support=true
 ro.hardware.camera=oemlayer
 
 # Radio
+persist.vendor.oplus.rtsar.licenses=1
+persist.vendor.oplus.tddsawless.licenses=1
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.mdccbsize=164
 persist.vendor.radio.virtualcomm=1
