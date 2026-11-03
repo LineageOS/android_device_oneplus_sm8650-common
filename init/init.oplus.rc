@@ -31,23 +31,6 @@ on property:ro.boot.prjname=*
     setprop ro.separate.soft ${ro.boot.prjname}
 
 on property:sys.boot_completed=1
-    # Network
-    copy /vendor/etc/O_STX_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/O_STX_platform_license.pfm
-    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/O_STX_platform_license.pfm
-    chown system system /mnt/vendor/persist/data/pfm/licenses/O_STX_platform_license.pfm
-
-    copy /odm/etc/oem_stx_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/oem_stx_platform_license.pfm
-    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oem_stx_platform_license.pfm
-    chown system system /mnt/vendor/persist/data/pfm/licenses/oem_stx_platform_license.pfm
-
-    copy /vendor/etc/O_TDD-Bypass_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_platform_license.pfm
-    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_platform_license.pfm
-    chown system system /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_platform_license.pfm
-
-    copy /vendor/etc/O_TDD-Bypass_SM7675_platform_license.pfm /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_SM7675_platform_license.pfm
-    chmod 0600 /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_SM7675_platform_license.pfm
-    chown system system /mnt/vendor/persist/data/pfm/licenses/O_TDD-Bypass_SM7675_platform_license.pfm
-
     # Widevine
     copy /vendor/etc/oplus_Widevine_licenses.pfm /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
     chmod 0600 /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
