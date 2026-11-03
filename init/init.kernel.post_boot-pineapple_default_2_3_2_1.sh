@@ -139,9 +139,8 @@ if [ -d /proc/sys/walt ]; then
 	# binder activity tasks
 	echo 325 > /proc/sys/walt/walt_low_latency_task_threshold
 
-	# configure maximum frequency of silver cluster when load is not detected and ensure that
-	# other clusters' fmax remains uncapped by setting the frequency to S32_MAX
-	echo 1804800 2707200 2707200 2147483647 > /proc/sys/walt/sched_fmax_cap
+	# configure maximum frequency of silver, gold and prime clusters when load is not detected
+	echo 1804800 2707200 2707200 3187200 > /proc/sys/walt/sched_fmax_cap
 
 	# Turn off scheduler boost at the end
 	echo 0 > /proc/sys/walt/sched_boost
