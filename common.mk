@@ -91,7 +91,6 @@ $(call soong_config_set_bool,qtiaudio,pal_oplus_speaker_protection,true)
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio-impl \
     lib_bt_aptx \
     lib_bt_ble \
     lib_bt_bundle
