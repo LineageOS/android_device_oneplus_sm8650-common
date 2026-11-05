@@ -34,6 +34,24 @@
       "parentUuid": "ce0516f0_99f3127b",
       "revId": "1f80468f601b799bc682902011b3d6f770b313cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec085dab_2f3bccd4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 38138
+      },
+      "writtenOn": "2026-11-05T08:33:27Z",
+      "side": 1,
+      "message": "Wierd... On senna oplus does NOT evem ships liboemcrypto in the first place, on all stock versions. That seems... odd",
+      "parentUuid": "5bc96674_9c400fc9",
+      "revId": "1f80468f601b799bc682902011b3d6f770b313cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
