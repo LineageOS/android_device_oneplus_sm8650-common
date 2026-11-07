@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4f565d1_d4e67d2c",
+        "filename": "extract-files.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-11-07T02:44:52Z",
+      "side": 1,
+      "message": "we could leave vpp as is. probably better than doing fixups for something which does no harm",
+      "revId": "b68d58964e52f1bfd5ce5f81ad523382a935d72c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
