@@ -80,6 +80,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'(PROCESS_NAME=lowi-server\nPROCESS_ARGUMENT=\nPROCESS_STATE=)DISABLED', r'\1ENABLED'),
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
         .regex_replace('/my_product', '/product'),
+    'system_ext/lib64/libwfdavenhancements.so': blob_fixup()
+        .binary_regex_replace(b'\xe8\\\x5e\x40\xf9', b'\xe8\x5a\x40\xf9'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
         .replace_needed('android.media.audio.common.types-V4-cpp.so', 'android.media.audio.common.types-V5-cpp.so'),
     'vendor/bin/init.kernel.post_boot-memory.sh': blob_fixup()
