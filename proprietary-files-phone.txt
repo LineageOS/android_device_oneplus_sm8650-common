@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2573_16.0.10.601(EX01)).
+## are from OnePlus 12 (CPH2573_17.0.0.100(EX01)).
 
 # CNE
 vendor/app/CACertService/CACertService.apk
@@ -289,7 +289,7 @@ system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvtutils.so
-system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
+system_ext/lib64/libSurfaceUtil_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libSurfaceUtil_jni.so
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 system_ext/lib64/vendor.qti.ImsRtpService-V2-ndk.so
@@ -520,14 +520,13 @@ odm/lib64/libcommcenterutils.so
 odm/lib64/libdmtp-protos-lite.so
 odm/lib64/libdmtp.so
 odm/lib64/libdmtpclient.so
+odm/lib64/libipc-framework.so
+odm/lib64/libipcapis.so
 odm/lib64/libmindroid-app.so
 odm/lib64/libmindroid-framework.so
 odm/lib64/libqti-radio-service.so
-odm/lib64/libqti-subsys-service.so
-odm/lib64/libradio-service.so
 odm/lib64/libradioapis.so
 odm/lib64/librfapis.so
-odm/lib64/libsubsys-service.so
 odm/lib64/libsubsys-utils.so
 odm/lib64/libvasapi.so
 
