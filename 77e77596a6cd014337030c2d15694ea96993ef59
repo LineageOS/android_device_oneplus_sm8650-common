@@ -16,6 +16,23 @@
       "message": "nords use icnss",
       "revId": "77e77596a6cd014337030c2d15694ea96993ef59",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db9bfbc8_86fbd5e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35825
+      },
+      "writtenOn": "2026-11-11T16:00:57Z",
+      "side": 1,
+      "message": "write /sys/class/remoteproc/remoteproc0/recovery enabled\n    write /sys/class/remoteproc/remoteproc1/recovery enabled\n    write /sys/class/remoteproc/remoteproc2/recovery enabled\n    write /sys/class/remoteproc/remoteproc3/recovery enabled\n\nadd these too.",
+      "revId": "77e77596a6cd014337030c2d15694ea96993ef59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
