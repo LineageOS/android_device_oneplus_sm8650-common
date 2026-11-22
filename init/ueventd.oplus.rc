@@ -29,3 +29,9 @@ firmware_directories /mnt/vendor/persist/display/
 /dev/block/bootdevice/by-name/oplusreserve5    0660    root    system
 /dev/block/sdf5   0660   root     system
 /dev/block/sdf6   0660   root     system
+
+# Vibrator
+/dev/awinic_haptic                             0600    system  system
+/sys/class/leds/vibrator  oplus_activate       0660    system  system
+/sys/class/leds/vibrator  oplus_duration       0660    system  system
+/sys/class/leds/vibrator  gain                 0660    system  system
