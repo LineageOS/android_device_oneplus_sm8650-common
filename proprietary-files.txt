@@ -848,6 +848,8 @@ vendor/etc/oplus_Widevine_licenses.pfm
 vendor/lib64/libcpion.so
 
 # WiFi
+odm/bin/init.oplus.wifi.sh
+odm/etc/init/hw/init.oplus.wifi.rc
 vendor/bin/cnss-daemon
 vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/wifi/p2p_supplicant_overlay.conf
