@@ -4,6 +4,7 @@
 #
 
 import /odm/etc/init/hw/init.oplus.display.rc
+import /odm/etc/init/hw/init.oplus.wifi.rc
 
 on fs
     # Update touchpanel firmware in case we ship newer firmware in /odm
